@@ -1,0 +1,3538 @@
+{
+  "Version": 77,
+  "Individuals": [
+    {
+      "Name": "Japanese CYP2C19 DDI",
+      "Seed": 438228375,
+      "OriginData": {
+        "CalculationMethods": [
+          "SurfaceAreaPlsInt_VAR1",
+          "Body surface area - Mosteller"
+        ],
+        "Species": "Human",
+        "Population": "Japanese_Population",
+        "Gender": "MALE",
+        "Age": {
+          "Value": 30.0,
+          "Unit": "year(s)"
+        }
+      },
+      "Molecules": [
+        {
+          "Name": "CYP3A4",
+          "Type": "Enzyme",
+          "MembraneLocation": "Apical",
+          "TissueLocation": "Intracellular",
+          "IntracellularVascularEndoLocation": "Endosomal",
+          "Expression": [
+            {
+              "Name": "Brain",
+              "Value": 0.0041682898325
+            },
+            {
+              "Name": "Gonads",
+              "Value": 0.00078691079081
+            },
+            {
+              "Name": "Kidney",
+              "Value": 0.0053603428126
+            },
+            {
+              "Name": "Periportal",
+              "Value": 1.0
+            },
+            {
+              "Name": "Pericentral",
+              "Value": 1.0
+            },
+            {
+              "Name": "Lung",
+              "Value": 0.00042695753798
+            },
+            {
+              "Name": "SmallIntestine",
+              "Value": 0.0727697702
+            },
+            {
+              "Name": "Duodenum",
+              "Value": 0.0727697702
+            },
+            {
+              "Name": "UpperJejunum",
+              "Value": 0.0727697702
+            },
+            {
+              "Name": "LowerJejunum",
+              "Value": 0.0727697702
+            },
+            {
+              "Name": "UpperIleum",
+              "Value": 0.0727697702
+            },
+            {
+              "Name": "LowerIleum",
+              "Value": 0.0727697702
+            }
+          ],
+          "Ontogeny": {
+            "Name": "CYP3A4"
+          },
+          "Parameters": [
+            {
+              "Name": "Reference concentration",
+              "Value": 4.32,
+              "Unit": "µmol/l"
+            },
+            {
+              "Name": "t1/2 (liver)",
+              "Value": 37.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "t1/2 (intestine)",
+              "Value": 23.0,
+              "Unit": "h"
+            }
+          ]
+        },
+        {
+          "Name": "CYP2C19",
+          "Type": "Enzyme",
+          "MembraneLocation": "Apical",
+          "TissueLocation": "Intracellular",
+          "IntracellularVascularEndoLocation": "Endosomal",
+          "Expression": [
+            {
+              "Name": "Brain",
+              "Value": 0.00014961101137
+            },
+            {
+              "Name": "Gonads",
+              "Value": 0.0003526545268
+            },
+            {
+              "Name": "Kidney",
+              "Value": 0.00015816021202
+            },
+            {
+              "Name": "Periportal",
+              "Value": 1.0
+            },
+            {
+              "Name": "Pericentral",
+              "Value": 1.0
+            },
+            {
+              "Name": "Lung",
+              "Value": 0.00040608703086
+            },
+            {
+              "Name": "SmallIntestine",
+              "Value": 0.014529148
+            },
+            {
+              "Name": "Duodenum",
+              "Value": 0.016875
+            },
+            {
+              "Name": "UpperJejunum",
+              "Value": 0.0132244898
+            },
+            {
+              "Name": "LowerJejunum",
+              "Value": 0.0132244898
+            },
+            {
+              "Name": "UpperIleum",
+              "Value": 0.0139655172
+            },
+            {
+              "Name": "LowerIleum",
+              "Value": 0.0139655172
+            }
+          ],
+          "Ontogeny": {
+            "Name": "CYP2C19"
+          },
+          "Parameters": [
+            {
+              "Name": "Reference concentration",
+              "Value": 0.76,
+              "Unit": "µmol/l"
+            },
+            {
+              "Name": "t1/2 (liver)",
+              "Value": 26.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "t1/2 (intestine)",
+              "Value": 23.0,
+              "Unit": "h"
+            }
+          ]
+        },
+        {
+          "Name": "CYP2D6",
+          "Type": "Enzyme",
+          "MembraneLocation": "Apical",
+          "TissueLocation": "Intracellular",
+          "IntracellularVascularEndoLocation": "Endosomal",
+          "Expression": [
+            {
+              "Name": "Brain",
+              "Value": 0.00768702814
+            },
+            {
+              "Name": "Gonads",
+              "Value": 0.768702814
+            },
+            {
+              "Name": "Kidney",
+              "Value": 0.0208304736
+            },
+            {
+              "Name": "Periportal",
+              "Value": 1.0
+            },
+            {
+              "Name": "Pericentral",
+              "Value": 1.0
+            },
+            {
+              "Name": "Lung",
+              "Value": 0.0223404255
+            },
+            {
+              "Name": "SmallIntestine",
+              "Value": 0.0909402883
+            },
+            {
+              "Name": "Duodenum",
+              "Value": 0.0909402883
+            },
+            {
+              "Name": "UpperJejunum",
+              "Value": 0.0909402883
+            },
+            {
+              "Name": "LowerJejunum",
+              "Value": 0.0909402883
+            },
+            {
+              "Name": "UpperIleum",
+              "Value": 0.0909402883
+            },
+            {
+              "Name": "LowerIleum",
+              "Value": 0.0909402883
+            }
+          ],
+          "Ontogeny": {
+            "Name": "CYP2D6"
+          },
+          "Parameters": [
+            {
+              "Name": "Reference concentration",
+              "Value": 0.4,
+              "Unit": "µmol/l"
+            },
+            {
+              "Name": "t1/2 (liver)",
+              "Value": 51.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "t1/2 (intestine)",
+              "Value": 23.0,
+              "Unit": "h"
+            }
+          ]
+        },
+        {
+          "Name": "CYP1A2",
+          "Type": "Enzyme",
+          "MembraneLocation": "Apical",
+          "TissueLocation": "Intracellular",
+          "IntracellularVascularEndoLocation": "Endosomal",
+          "Expression": [
+            {
+              "Name": "Gonads",
+              "Value": 0.00029559748428
+            },
+            {
+              "Name": "Kidney",
+              "Value": 4.4025157233E-06
+            },
+            {
+              "Name": "Periportal",
+              "Value": 1.0
+            },
+            {
+              "Name": "Pericentral",
+              "Value": 1.0
+            },
+            {
+              "Name": "Lung",
+              "Value": 2.4947589099E-05
+            }
+          ],
+          "Ontogeny": {
+            "Name": "CYP1A2"
+          },
+          "Parameters": [
+            {
+              "Name": "Reference concentration",
+              "Value": 1.8,
+              "Unit": "µmol/l"
+            },
+            {
+              "Name": "t1/2 (liver)",
+              "Value": 39.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "t1/2 (intestine)",
+              "Value": 23.0,
+              "Unit": "h"
+            }
+          ]
+        },
+        {
+          "Name": "FMO_other",
+          "Type": "Enzyme",
+          "MembraneLocation": "Apical",
+          "TissueLocation": "Intracellular",
+          "IntracellularVascularEndoLocation": "Endosomal",
+          "Expression": [
+            {
+              "Name": "Periportal",
+              "Value": 1.0
+            },
+            {
+              "Name": "Pericentral",
+              "Value": 1.0
+            }
+          ],
+          "Parameters": [
+            {
+              "Name": "Reference concentration",
+              "Value": 1.0,
+              "Unit": "µmol/l"
+            },
+            {
+              "Name": "t1/2 (liver)",
+              "Value": 36.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "t1/2 (intestine)",
+              "Value": 23.0,
+              "Unit": "h"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "Compounds": [
+    {
+      "Name": "Esomeprazole",
+      "IsSmallMolecule": true,
+      "PlasmaProteinBindingPartner": "Albumin",
+      "Lipophilicity": [
+        {
+          "Name": "LogP fit",
+          "Parameters": [
+            {
+              "Name": "Lipophilicity",
+              "Value": 1.6835584938,
+              "Unit": "Log Units",
+              "ValueOrigin": {
+                "Source": "ParameterIdentification",
+                "Method": "ParameterIdentification"
+              }
+            }
+          ]
+        }
+      ],
+      "FractionUnbound": [
+        {
+          "Name": "Fu DrugBank",
+          "Species": "Human",
+          "Parameters": [
+            {
+              "Name": "Fraction unbound (plasma, reference value)",
+              "Value": 0.03,
+              "ValueOrigin": {
+                "Source": "Database",
+                "Description": "DrugBank DB00338"
+              }
+            }
+          ]
+        }
+      ],
+      "Solubility": [
+        {
+          "Name": "Measurement",
+          "Parameters": [
+            {
+              "Name": "Solubility at reference pH",
+              "Value": 0.359,
+              "Unit": "mg/ml",
+              "ValueOrigin": {
+                "Source": "Database",
+                "Description": "DrugBank DB00338"
+              }
+            },
+            {
+              "Name": "Reference pH",
+              "Value": 7.0,
+              "ValueOrigin": {
+                "Source": "Database",
+                "Description": "DrugBank DB00338"
+              }
+            }
+          ]
+        }
+      ],
+      "IntestinalPermeability": [
+        {
+          "Name": "Fit",
+          "Parameters": [
+            {
+              "Name": "Specific intestinal permeability (transcellular)",
+              "Value": 9.79E-05,
+              "Unit": "cm/min",
+              "ValueOrigin": {
+                "Source": "ParameterIdentification",
+                "Method": "ParameterIdentification"
+              }
+            }
+          ]
+        }
+      ],
+      "PkaTypes": [
+        {
+          "Type": "Acid",
+          "Pka": 9.29,
+          "ValueOrigin": {
+            "Source": "Database",
+            "Description": "DrugBank DB00338"
+          }
+        },
+        {
+          "Type": "Base",
+          "Pka": 4.77,
+          "ValueOrigin": {
+            "Source": "Database",
+            "Description": "DrugBank DB00338"
+          }
+        }
+      ],
+      "Processes": [
+        {
+          "InternalName": "MetabolizationIntrinsic_FirstOrder",
+          "DataSource": "2C19 Linear Fit",
+          "Species": "Human",
+          "Molecule": "CYP2C19",
+          "Parameters": [
+            {
+              "Name": "Intrinsic clearance",
+              "Value": 0.0,
+              "Unit": "l/min"
+            },
+            {
+              "Name": "Specific clearance",
+              "Value": 13.98,
+              "Unit": "1/min",
+              "ValueOrigin": {
+                "Source": "ParameterIdentification",
+                "Method": "ParameterIdentification"
+              }
+            }
+          ]
+        },
+        {
+          "InternalName": "MetabolizationIntrinsic_FirstOrder",
+          "DataSource": "3A4 Linear Fit",
+          "Species": "Human",
+          "Molecule": "CYP3A4",
+          "Parameters": [
+            {
+              "Name": "Intrinsic clearance",
+              "Value": 0.0,
+              "Unit": "l/min"
+            },
+            {
+              "Name": "Specific clearance",
+              "Value": 0.3707655759,
+              "Unit": "1/min",
+              "ValueOrigin": {
+                "Source": "ParameterIdentification",
+                "Method": "ParameterIdentification"
+              }
+            }
+          ]
+        },
+        {
+          "InternalName": "KidneyClearance",
+          "DataSource": "Wu2014 - Table1 - CLr",
+          "Species": "Human",
+          "Parameters": [
+            {
+              "Name": "Fraction unbound (experiment)",
+              "Value": 0.05
+            },
+            {
+              "Name": "Plasma clearance",
+              "Value": 0.000507,
+              "Unit": "l/h/kg",
+              "ValueOrigin": {
+                "Source": "Unknown",
+                "Description": "0.037l/h/73kg"
+              }
+            }
+          ]
+        },
+        {
+          "InternalName": "CompetitiveInhibition",
+          "DataSource": "Liu 2005 - Ki in vivo unbound",
+          "Molecule": "CYP2C19",
+          "Parameters": [
+            {
+              "Name": "Ki",
+              "Value": 3.1,
+              "Unit": "µmol/l",
+              "ValueOrigin": {
+                "Source": "Publication",
+                "Description": "Liu 2005"
+              }
+            }
+          ]
+        },
+        {
+          "InternalName": "IrreversibleInhibition",
+          "DataSource": "Wu2014 - Table1 - TDI",
+          "Molecule": "CYP2C19",
+          "Parameters": [
+            {
+              "Name": "kinact",
+              "Value": 5.0,
+              "Unit": "1/h",
+              "ValueOrigin": {
+                "Source": "Publication",
+                "Description": "Wu 2014"
+              }
+            },
+            {
+              "Name": "K_kinact_half",
+              "Value": 0.3,
+              "Unit": "µmol/l"
+            }
+          ]
+        }
+      ],
+      "CalculationMethods": [
+        "Cellular partition coefficient method - Rodgers and Rowland",
+        "Cellular permeability - PK-Sim Standard"
+      ],
+      "Parameters": [
+        {
+          "Name": "Molecular weight",
+          "Value": 345.416,
+          "Unit": "g/mol",
+          "ValueOrigin": {
+            "Source": "Database",
+            "Description": "DrugBank DB00338"
+          }
+        }
+      ]
+    },
+    {
+      "Name": "Omeprazole",
+      "IsSmallMolecule": true,
+      "PlasmaProteinBindingPartner": "Albumin",
+      "Lipophilicity": [
+        {
+          "Name": "LogP fit",
+          "Parameters": [
+            {
+              "Name": "Lipophilicity",
+              "Value": 1.6835584938,
+              "Unit": "Log Units",
+              "ValueOrigin": {
+                "Source": "ParameterIdentification",
+                "Method": "ParameterIdentification"
+              }
+            }
+          ]
+        }
+      ],
+      "FractionUnbound": [
+        {
+          "Name": "Fu DrugBank",
+          "Species": "Human",
+          "Parameters": [
+            {
+              "Name": "Fraction unbound (plasma, reference value)",
+              "Value": 0.03,
+              "ValueOrigin": {
+                "Source": "Database",
+                "Description": "DrugBank DB00338"
+              }
+            }
+          ]
+        }
+      ],
+      "Solubility": [
+        {
+          "Name": "Measurement",
+          "Parameters": [
+            {
+              "Name": "Solubility at reference pH",
+              "Value": 0.359,
+              "Unit": "mg/ml",
+              "ValueOrigin": {
+                "Source": "Database",
+                "Description": "DrugBank DB00338"
+              }
+            },
+            {
+              "Name": "Reference pH",
+              "Value": 7.0,
+              "ValueOrigin": {
+                "Source": "Database",
+                "Description": "DrugBank DB00338"
+              }
+            }
+          ]
+        }
+      ],
+      "IntestinalPermeability": [
+        {
+          "Name": "Fit",
+          "Parameters": [
+            {
+              "Name": "Specific intestinal permeability (transcellular)",
+              "Value": 9.79E-05,
+              "Unit": "cm/min",
+              "ValueOrigin": {
+                "Source": "ParameterIdentification",
+                "Method": "ParameterIdentification"
+              }
+            }
+          ]
+        }
+      ],
+      "PkaTypes": [
+        {
+          "Type": "Acid",
+          "Pka": 9.29,
+          "ValueOrigin": {
+            "Source": "Database",
+            "Description": "DrugBank DB00338"
+          }
+        },
+        {
+          "Type": "Base",
+          "Pka": 4.77,
+          "ValueOrigin": {
+            "Source": "Database",
+            "Description": "DrugBank DB00338"
+          }
+        }
+      ],
+      "Processes": [
+        {
+          "InternalName": "MetabolizationIntrinsic_FirstOrder",
+          "DataSource": "2C19 Linear Fit",
+          "Species": "Human",
+          "Molecule": "CYP2C19",
+          "Parameters": [
+            {
+              "Name": "Intrinsic clearance",
+              "Value": 0.0,
+              "Unit": "l/min"
+            },
+            {
+              "Name": "Specific clearance",
+              "Value": 13.98,
+              "Unit": "1/min",
+              "ValueOrigin": {
+                "Source": "ParameterIdentification",
+                "Method": "ParameterIdentification"
+              }
+            }
+          ]
+        },
+        {
+          "InternalName": "MetabolizationIntrinsic_FirstOrder",
+          "DataSource": "3A4 Linear Fit",
+          "Species": "Human",
+          "Molecule": "CYP3A4",
+          "Parameters": [
+            {
+              "Name": "Intrinsic clearance",
+              "Value": 0.0,
+              "Unit": "l/min"
+            },
+            {
+              "Name": "Specific clearance",
+              "Value": 0.3707655759,
+              "Unit": "1/min",
+              "ValueOrigin": {
+                "Source": "ParameterIdentification",
+                "Method": "ParameterIdentification"
+              }
+            }
+          ]
+        },
+        {
+          "InternalName": "KidneyClearance",
+          "DataSource": "Wu2014 - Table1 - CLr",
+          "Species": "Human",
+          "Parameters": [
+            {
+              "Name": "Fraction unbound (experiment)",
+              "Value": 0.05
+            },
+            {
+              "Name": "Plasma clearance",
+              "Value": 0.000507,
+              "Unit": "l/h/kg",
+              "ValueOrigin": {
+                "Source": "Unknown",
+                "Description": "0.037l/h/73kg"
+              }
+            }
+          ]
+        },
+        {
+          "InternalName": "CompetitiveInhibition",
+          "DataSource": "Liu 2005 - Ki in vivo unbound",
+          "Molecule": "CYP2C19",
+          "Parameters": [
+            {
+              "Name": "Ki",
+              "Value": 3.1,
+              "Unit": "µmol/l",
+              "ValueOrigin": {
+                "Source": "Publication",
+                "Description": "Liu 2005"
+              }
+            }
+          ]
+        },
+        {
+          "InternalName": "IrreversibleInhibition",
+          "DataSource": "Wu2014 - Table1 - TDI",
+          "Molecule": "CYP2C19",
+          "Parameters": [
+            {
+              "Name": "kinact",
+              "Value": 5.0,
+              "Unit": "1/h",
+              "ValueOrigin": {
+                "Source": "Publication",
+                "Description": "Wu 2014"
+              }
+            },
+            {
+              "Name": "K_kinact_half",
+              "Value": 0.3,
+              "Unit": "µmol/l"
+            }
+          ]
+        }
+      ],
+      "CalculationMethods": [
+        "Cellular partition coefficient method - Rodgers and Rowland",
+        "Cellular permeability - PK-Sim Standard"
+      ],
+      "Parameters": [
+        {
+          "Name": "Molecular weight",
+          "Value": 345.416,
+          "Unit": "g/mol",
+          "ValueOrigin": {
+            "Source": "Database",
+            "Description": "DrugBank DB00338"
+          }
+        }
+      ]
+    },
+    {
+      "Name": "R-omeprazole",
+      "IsSmallMolecule": true,
+      "PlasmaProteinBindingPartner": "Albumin",
+      "Lipophilicity": [
+        {
+          "Name": "LogP fit",
+          "Parameters": [
+            {
+              "Name": "Lipophilicity",
+              "Value": 1.6835584938,
+              "Unit": "Log Units",
+              "ValueOrigin": {
+                "Source": "Other",
+                "Method": "Assumption",
+                "Description": "Same as S-omeprazole"
+              }
+            }
+          ]
+        }
+      ],
+      "FractionUnbound": [
+        {
+          "Name": "Fu DrugBank",
+          "Species": "Human",
+          "Parameters": [
+            {
+              "Name": "Fraction unbound (plasma, reference value)",
+              "Value": 0.04,
+              "ValueOrigin": {
+                "Source": "Publication",
+                "Description": "Ogilvie 2011"
+              }
+            }
+          ]
+        }
+      ],
+      "Solubility": [
+        {
+          "Name": "Measurement",
+          "Parameters": [
+            {
+              "Name": "Solubility at reference pH",
+              "Value": 0.359,
+              "Unit": "mg/ml",
+              "ValueOrigin": {
+                "Source": "Database",
+                "Description": "DrugBank DB00338"
+              }
+            },
+            {
+              "Name": "Reference pH",
+              "Value": 7.0,
+              "ValueOrigin": {
+                "Source": "Database",
+                "Description": "DrugBank DB00338"
+              }
+            }
+          ]
+        }
+      ],
+      "IntestinalPermeability": [
+        {
+          "Name": "Fit",
+          "Parameters": [
+            {
+              "Name": "Specific intestinal permeability (transcellular)",
+              "Value": 9.79E-05,
+              "Unit": "cm/min",
+              "ValueOrigin": {
+                "Source": "Other",
+                "Method": "Assumption",
+                "Description": "Assumend same as S-omeprazole"
+              }
+            }
+          ]
+        }
+      ],
+      "PkaTypes": [
+        {
+          "Type": "Acid",
+          "Pka": 9.29,
+          "ValueOrigin": {
+            "Source": "Database",
+            "Description": "DrugBank DB00338"
+          }
+        },
+        {
+          "Type": "Base",
+          "Pka": 4.77,
+          "ValueOrigin": {
+            "Source": "Database",
+            "Description": "DrugBank DB00338"
+          }
+        }
+      ],
+      "Processes": [
+        {
+          "InternalName": "MetabolizationIntrinsic_FirstOrder",
+          "DataSource": "2C19 Linear Fit",
+          "Species": "Human",
+          "Molecule": "CYP2C19",
+          "Parameters": [
+            {
+              "Name": "Intrinsic clearance",
+              "Value": 0.0,
+              "Unit": "l/min"
+            },
+            {
+              "Name": "Specific clearance",
+              "Value": 50.0,
+              "Unit": "1/min",
+              "ValueOrigin": {
+                "Source": "ParameterIdentification",
+                "Method": "ParameterIdentification",
+                "Description": "Uppder bound lilmited"
+              }
+            }
+          ]
+        },
+        {
+          "InternalName": "MetabolizationIntrinsic_FirstOrder",
+          "DataSource": "3A4 Linear Fit",
+          "Species": "Human",
+          "Molecule": "CYP3A4",
+          "Parameters": [
+            {
+              "Name": "Intrinsic clearance",
+              "Value": 0.0,
+              "Unit": "l/min"
+            },
+            {
+              "Name": "Specific clearance",
+              "Value": 0.161397262,
+              "Unit": "1/min",
+              "ValueOrigin": {
+                "Source": "ParameterIdentification",
+                "Method": "ParameterIdentification"
+              }
+            }
+          ]
+        },
+        {
+          "InternalName": "KidneyClearance",
+          "DataSource": "Wu2014 - Table1 - CLr",
+          "Species": "Human",
+          "Parameters": [
+            {
+              "Name": "Fraction unbound (experiment)",
+              "Value": 0.03
+            },
+            {
+              "Name": "Plasma clearance",
+              "Value": 0.0,
+              "Unit": "ml/min/kg"
+            },
+            {
+              "Name": "Specific clearance",
+              "Value": 0.0282095334,
+              "Unit": "1/min",
+              "ValueOrigin": {
+                "Source": "Publication",
+                "Description": "Wu 2014"
+              }
+            }
+          ]
+        },
+        {
+          "InternalName": "CompetitiveInhibition",
+          "DataSource": "Liu 2005 - Ki in vivo unbound",
+          "Molecule": "CYP2C19",
+          "Parameters": [
+            {
+              "Name": "Ki",
+              "Value": 5.3,
+              "Unit": "µmol/l",
+              "ValueOrigin": {
+                "Source": "Publication",
+                "Description": "Liu 2005"
+              }
+            }
+          ]
+        },
+        {
+          "InternalName": "IrreversibleInhibition",
+          "DataSource": "Wu2014 - Table1 - TDI",
+          "Molecule": "CYP2C19",
+          "Parameters": [
+            {
+              "Name": "kinact",
+              "Value": 4.0,
+              "Unit": "1/h",
+              "ValueOrigin": {
+                "Source": "Publication",
+                "Description": "Wu 2014"
+              }
+            },
+            {
+              "Name": "K_kinact_half",
+              "Value": 1.6,
+              "Unit": "µmol/l"
+            }
+          ]
+        }
+      ],
+      "CalculationMethods": [
+        "Cellular partition coefficient method - Rodgers and Rowland",
+        "Cellular permeability - PK-Sim Standard"
+      ],
+      "Parameters": [
+        {
+          "Name": "Molecular weight",
+          "Value": 345.416,
+          "Unit": "g/mol",
+          "ValueOrigin": {
+            "Source": "Database",
+            "Description": "DrugBank DB00338"
+          }
+        }
+      ]
+    },
+    {
+      "Name": "Moclobemide",
+      "IsSmallMolecule": true,
+      "PlasmaProteinBindingPartner": "Albumin",
+      "Lipophilicity": [
+        {
+          "Name": "logD",
+          "Parameters": [
+            {
+              "Name": "Lipophilicity",
+              "Value": 1.79,
+              "Unit": "Log Units",
+              "ValueOrigin": {
+                "Source": "Publication",
+                "Description": "Pons 1990"
+              }
+            }
+          ]
+        }
+      ],
+      "FractionUnbound": [
+        {
+          "Name": "Measurement",
+          "Species": "Human",
+          "Parameters": [
+            {
+              "Name": "Fraction unbound (plasma, reference value)",
+              "Value": 0.5,
+              "ValueOrigin": {
+                "Source": "Other",
+                "Description": "MHRA Label Moclobemide"
+              }
+            }
+          ]
+        }
+      ],
+      "Solubility": [
+        {
+          "Name": "Measurement",
+          "Parameters": [
+            {
+              "Name": "Solubility at reference pH",
+              "Value": 3.0,
+              "Unit": "mg/ml",
+              "ValueOrigin": {
+                "Source": "Internet",
+                "Description": "Moclobemide, INCHEM"
+              }
+            },
+            {
+              "Name": "Reference pH",
+              "Value": 6.8,
+              "ValueOrigin": {
+                "Source": "Internet",
+                "Description": "Moclobemide, INCHEM"
+              }
+            }
+          ]
+        }
+      ],
+      "PkaTypes": [
+        {
+          "Type": "Base",
+          "Pka": 6.2,
+          "ValueOrigin": {
+            "Source": "Internet",
+            "Description": "IPCS ICHEM"
+          }
+        }
+      ],
+      "Processes": [
+        {
+          "InternalName": "MetabolizationIntrinsic_MM",
+          "DataSource": "Intrinsic-CL_MM_fit",
+          "Species": "Human",
+          "Molecule": "CYP2C19",
+          "Parameters": [
+            {
+              "Name": "Vmax (liver tissue)",
+              "Value": 2.03,
+              "Unit": "µmol/min/kg tissue",
+              "ValueOrigin": {
+                "Source": "ParameterIdentification"
+              }
+            },
+            {
+              "Name": "Km",
+              "Value": 1.11,
+              "Unit": "µmol/l",
+              "ValueOrigin": {
+                "Source": "ParameterIdentification"
+              }
+            }
+          ]
+        },
+        {
+          "InternalName": "MetabolizationIntrinsic_FirstOrder",
+          "DataSource": "Intrinsic-CL-fit",
+          "Species": "Human",
+          "Molecule": "FMO_other",
+          "Parameters": [
+            {
+              "Name": "Intrinsic clearance",
+              "Value": 0.24,
+              "Unit": "l/min",
+              "ValueOrigin": {
+                "Source": "ParameterIdentification"
+              }
+            }
+          ]
+        },
+        {
+          "InternalName": "KidneyClearance",
+          "DataSource": "Schoerlin 1987",
+          "Species": "Human",
+          "Parameters": [
+            {
+              "Name": "Fraction unbound (experiment)",
+              "Value": 0.5
+            },
+            {
+              "Name": "Plasma clearance",
+              "Value": 0.034,
+              "Unit": "ml/min/kg",
+              "ValueOrigin": {
+                "Source": "Publication",
+                "Description": "Schoerlin 1987"
+              }
+            }
+          ]
+        },
+        {
+          "InternalName": "CompetitiveInhibition",
+          "DataSource": "Kramer-unbound",
+          "Molecule": "CYP2C19",
+          "Parameters": [
+            {
+              "Name": "Ki",
+              "Value": 203.82,
+              "Unit": "µmol/l",
+              "ValueOrigin": {
+                "Source": "Publication",
+                "Description": "Kramer-Nielsen 1996"
+              }
+            }
+          ]
+        },
+        {
+          "InternalName": "IrreversibleInhibition",
+          "DataSource": "TimeDep_AutoInh-fit",
+          "Molecule": "CYP2C19",
+          "Parameters": [
+            {
+              "Name": "kinact",
+              "Value": 5.0,
+              "Unit": "1/h",
+              "ValueOrigin": {
+                "Source": "Publication",
+                "Description": "Wu2014"
+              }
+            },
+            {
+              "Name": "K_kinact_half",
+              "Value": 94.85,
+              "Unit": "µmol/l",
+              "ValueOrigin": {
+                "Source": "ParameterIdentification"
+              }
+            }
+          ]
+        }
+      ],
+      "CalculationMethods": [
+        "Cellular partition coefficient method - Rodgers and Rowland",
+        "Cellular permeability - PK-Sim Standard"
+      ],
+      "Parameters": [
+        {
+          "Name": "Cl",
+          "Value": 1.0,
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Name": "Molecular weight",
+          "Value": 268.74,
+          "Unit": "g/mol",
+          "ValueOrigin": {
+            "Source": "Database",
+            "Description": "DrugBank DB01171"
+          }
+        }
+      ]
+    }
+  ],
+  "Formulations": [
+    {
+      "Name": "Omeprazole capsule",
+      "FormulationType": "Formulation_Tablet_Weibull",
+      "Parameters": [
+        {
+          "Name": "Dissolution time (50% dissolved)",
+          "Value": 41.65,
+          "Unit": "min",
+          "ValueOrigin": {
+            "Source": "ParameterIdentification",
+            "Method": "ParameterIdentification"
+          }
+        },
+        {
+          "Name": "Lag time",
+          "Value": 30.0,
+          "Unit": "min",
+          "ValueOrigin": {
+            "Source": "Other",
+            "Method": "Assumption",
+            "Description": "Gastric emptying"
+          }
+        },
+        {
+          "Name": "Dissolution shape",
+          "Value": 1.02,
+          "ValueOrigin": {
+            "Source": "ParameterIdentification",
+            "Method": "ParameterIdentification"
+          }
+        },
+        {
+          "Name": "Use as suspension",
+          "Value": 1.0
+        }
+      ]
+    },
+    {
+      "Name": "Moclobemide tablet",
+      "FormulationType": "Formulation_Particles",
+      "Parameters": [
+        {
+          "Name": "Thickness (unstirred water layer)",
+          "Value": 20.0,
+          "Unit": "µm"
+        },
+        {
+          "Name": "Type of particle size distribution",
+          "Value": 0.0
+        },
+        {
+          "Name": "Particle radius (mean)",
+          "Value": 10.0,
+          "Unit": "µm"
+        }
+      ]
+    }
+  ],
+  "Protocols": [
+    {
+      "Name": "S-Omeprazole 20mg po",
+      "ApplicationType": "Oral",
+      "DosingInterval": "Single",
+      "Parameters": [
+        {
+          "Name": "Start time",
+          "Value": 0.0,
+          "Unit": "h"
+        },
+        {
+          "Name": "InputDose",
+          "Value": 20.0,
+          "Unit": "mg"
+        },
+        {
+          "Name": "Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        }
+      ]
+    },
+    {
+      "Name": "R-Omeprazole 20mg po",
+      "ApplicationType": "Oral",
+      "DosingInterval": "Single",
+      "Parameters": [
+        {
+          "Name": "Start time",
+          "Value": 0.0,
+          "Unit": "h"
+        },
+        {
+          "Name": "InputDose",
+          "Value": 20.0,
+          "Unit": "mg"
+        },
+        {
+          "Name": "Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        }
+      ]
+    },
+    {
+      "Name": "Moclobemide 300mg po",
+      "ApplicationType": "Oral",
+      "DosingInterval": "Single",
+      "Parameters": [
+        {
+          "Name": "Start time",
+          "Value": 0.0,
+          "Unit": "h"
+        },
+        {
+          "Name": "InputDose",
+          "Value": 300.0,
+          "Unit": "mg"
+        },
+        {
+          "Name": "Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        }
+      ]
+    }
+  ],
+  "ObserverSets": [
+    {
+      "Name": "Omeprazole Plasma (Peripheral Venous Blood)",
+      "Observers": [
+        {
+          "Name": "Omeprazole Plasma (Peripheral Venous Blood)",
+          "Dimension": "Concentration (molar)",
+          "ContainerCriteria": [
+            {
+              "Tag": "PeripheralVenousBlood",
+              "Type": "MatchTag"
+            }
+          ],
+          "Formula": {
+            "Name": "OBS_Plasma_PeripheralVenousBlood",
+            "Formula": "fQ_art*(C_pls_art + C_pls_art_R) + fQ_bon * (C_pls_bon + C_pls_bon_R) + fQ_fat * (C_pls_fat + C_pls_fat_R)+fQ_mus * (C_pls_mus + C_pls_mus_R) + fQ_skn * (C_pls_skn + C_pls_skn_R)",
+            "References": [
+              {
+                "Alias": "C_pls_art",
+                "Dimension": "Concentration (molar)",
+                "Path": "Organism|ArterialBlood|Plasma|Esomeprazole|Concentration"
+              },
+              {
+                "Alias": "C_pls_bon",
+                "Dimension": "Concentration (molar)",
+                "Path": "Organism|Bone|Plasma|Esomeprazole|Concentration"
+              },
+              {
+                "Alias": "C_pls_fat",
+                "Dimension": "Concentration (molar)",
+                "Path": "Organism|Fat|Plasma|Esomeprazole|Concentration"
+              },
+              {
+                "Alias": "C_pls_mus",
+                "Dimension": "Concentration (molar)",
+                "Path": "Organism|Muscle|Plasma|Esomeprazole|Concentration"
+              },
+              {
+                "Alias": "C_pls_skn",
+                "Dimension": "Concentration (molar)",
+                "Path": "Organism|Skin|Plasma|Esomeprazole|Concentration"
+              },
+              {
+                "Alias": "fQ_art",
+                "Dimension": "Fraction",
+                "Path": "Organism|ArterialBlood|Peripheral blood flow fraction"
+              },
+              {
+                "Alias": "fQ_bon",
+                "Dimension": "Fraction",
+                "Path": "Organism|Bone|Peripheral blood flow fraction"
+              },
+              {
+                "Alias": "fQ_fat",
+                "Dimension": "Fraction",
+                "Path": "Organism|Fat|Peripheral blood flow fraction"
+              },
+              {
+                "Alias": "fQ_mus",
+                "Dimension": "Fraction",
+                "Path": "Organism|Muscle|Peripheral blood flow fraction"
+              },
+              {
+                "Alias": "fQ_skn",
+                "Dimension": "Fraction",
+                "Path": "Organism|Skin|Peripheral blood flow fraction"
+              },
+              {
+                "Alias": "C_pls_art_R",
+                "Dimension": "Concentration (molar)",
+                "Path": "Organism|ArterialBlood|Plasma|R-omeprazole|Concentration"
+              },
+              {
+                "Alias": "C_pls_bon_R",
+                "Dimension": "Concentration (molar)",
+                "Path": "Organism|Bone|Plasma|R-omeprazole|Concentration"
+              },
+              {
+                "Alias": "C_pls_fat_R",
+                "Dimension": "Concentration (molar)",
+                "Path": "Organism|Fat|Plasma|R-omeprazole|Concentration"
+              },
+              {
+                "Alias": "C_pls_mus_R",
+                "Dimension": "Concentration (molar)",
+                "Path": "Organism|Muscle|Plasma|R-omeprazole|Concentration"
+              },
+              {
+                "Alias": "C_pls_skn_R",
+                "Dimension": "Concentration (molar)",
+                "Path": "Organism|Skin|Plasma|R-omeprazole|Concentration"
+              }
+            ],
+            "Dimension": "Concentration (molar)"
+          },
+          "MoleculeList": {
+            "ForAll": false,
+            "MoleculeNamesToInclude": [
+              "Esomeprazole"
+            ]
+          },
+          "Type": "Container"
+        }
+      ]
+    }
+  ],
+  "Simulations": [
+    {
+      "Name": "omeprazole 40mg po asian EM",
+      "Model": "4Comp",
+      "ObservedData": [
+        "Cho2002.Mean Ompz.20mg.po.EM"
+      ],
+      "Solver": {},
+      "OutputSchema": [
+        {
+          "Parameters": [
+            {
+              "Name": "Start time",
+              "Value": 0.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "End time",
+              "Value": 2.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "Resolution",
+              "Value": 20.0,
+              "Unit": "pts/h"
+            }
+          ]
+        },
+        {
+          "Parameters": [
+            {
+              "Name": "Start time",
+              "Value": 2.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "End time",
+              "Value": 12.0,
+              "Unit": "h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            },
+            {
+              "Name": "Resolution",
+              "Value": 4.0,
+              "Unit": "pts/h"
+            }
+          ]
+        }
+      ],
+      "Parameters": [
+        {
+          "Path": "Applications|R-Omeprazole 20mg po|Omeprazole capsule|Application_1|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|S-Omeprazole 20mg po|Omeprazole capsule|Application_1|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        }
+      ],
+      "OutputSelections": [
+        "Organism|PeripheralVenousBlood|Esomeprazole|Omeprazole Plasma (Peripheral Venous Blood)"
+      ],
+      "Individual": "Japanese CYP2C19 DDI",
+      "Compounds": [
+        {
+          "Name": "Esomeprazole",
+          "CalculationMethods": [
+            "Cellular partition coefficient method - Rodgers and Rowland",
+            "Cellular permeability - PK-Sim Standard"
+          ],
+          "Alternatives": [
+            {
+              "AlternativeName": "Fit",
+              "GroupName": "COMPOUND_INTESTINAL_PERMEABILITY"
+            }
+          ],
+          "Processes": [
+            {
+              "Name": "CYP3A4-3A4 Linear Fit",
+              "MoleculeName": "CYP3A4"
+            },
+            {
+              "Name": "CYP2C19-2C19 Linear Fit",
+              "MoleculeName": "CYP2C19"
+            },
+            {
+              "MoleculeName": "CYP2D6"
+            },
+            {
+              "MoleculeName": "CYP1A2"
+            },
+            {
+              "MoleculeName": "FMO_other"
+            },
+            {
+              "Name": "Renal Clearances-Wu2014 - Table1 - CLr",
+              "SystemicProcessType": "Renal"
+            }
+          ],
+          "Protocol": {
+            "Name": "S-Omeprazole 20mg po",
+            "Formulations": [
+              {
+                "Name": "Omeprazole capsule",
+                "Key": "Formulation"
+              }
+            ]
+          }
+        },
+        {
+          "Name": "Omeprazole",
+          "CalculationMethods": [
+            "Cellular partition coefficient method - Rodgers and Rowland",
+            "Cellular permeability - PK-Sim Standard"
+          ],
+          "Alternatives": [
+            {
+              "AlternativeName": "Fit",
+              "GroupName": "COMPOUND_INTESTINAL_PERMEABILITY"
+            }
+          ],
+          "Processes": [
+            {
+              "Name": "CYP3A4-3A4 Linear Fit",
+              "MoleculeName": "CYP3A4"
+            },
+            {
+              "Name": "CYP2C19-2C19 Linear Fit",
+              "MoleculeName": "CYP2C19"
+            },
+            {
+              "MoleculeName": "CYP2D6"
+            },
+            {
+              "MoleculeName": "CYP1A2"
+            },
+            {
+              "MoleculeName": "FMO_other"
+            },
+            {
+              "Name": "Renal Clearances-Wu2014 - Table1 - CLr",
+              "SystemicProcessType": "Renal"
+            }
+          ]
+        },
+        {
+          "Name": "R-omeprazole",
+          "CalculationMethods": [
+            "Cellular partition coefficient method - Rodgers and Rowland",
+            "Cellular permeability - PK-Sim Standard"
+          ],
+          "Alternatives": [
+            {
+              "AlternativeName": "Fit",
+              "GroupName": "COMPOUND_INTESTINAL_PERMEABILITY"
+            }
+          ],
+          "Processes": [
+            {
+              "Name": "CYP3A4-3A4 Linear Fit",
+              "MoleculeName": "CYP3A4"
+            },
+            {
+              "Name": "CYP2C19-2C19 Linear Fit",
+              "MoleculeName": "CYP2C19"
+            },
+            {
+              "MoleculeName": "CYP2D6"
+            },
+            {
+              "MoleculeName": "CYP1A2"
+            },
+            {
+              "MoleculeName": "FMO_other"
+            },
+            {
+              "Name": "Renal Clearances-Wu2014 - Table1 - CLr",
+              "SystemicProcessType": "Renal"
+            }
+          ],
+          "Protocol": {
+            "Name": "R-Omeprazole 20mg po",
+            "Formulations": [
+              {
+                "Name": "Omeprazole capsule",
+                "Key": "Formulation"
+              }
+            ]
+          }
+        }
+      ],
+      "ObserverSets": [
+        {
+          "Name": "Omeprazole Plasma (Peripheral Venous Blood)"
+        }
+      ],
+      "HasResults": true,
+      "IndividualAnalyses": [
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "µmol/l",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Log",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "Omeprazole simulated",
+              "X": "Time",
+              "Y": "omeprazole 40mg po asian EM|Organism|PeripheralVenousBlood|Esomeprazole|Omeprazole Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 1
+              }
+            },
+            {
+              "Name": "Cho2002.Mean Ompz.20mg.po.EM-Omeprazole-Peripheral Venous Blood-Plasma-CentralMeasure",
+              "X": "Cho2002.Mean Ompz.20mg.po.EM|Time",
+              "Y": "Cho2002.Mean Ompz.20mg.po.EM|ObservedData|Peripheral Venous Blood|Plasma|Omeprazole|CentralMeasure",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 2,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ],
+          "Name": "Omeprazole 40mg po asian EM",
+          "Title": "Omeprazole 40mg po asian EM",
+          "OriginText": "Omeprazole-Moclobemide-DDI\nomeprazole 40mg po asian EM\n2020-06-26 19:28"
+        }
+      ],
+      "Interactions": [
+        {
+          "Name": "CYP2C19-Wu2014 - Table1 - TDI",
+          "MoleculeName": "CYP2C19",
+          "CompoundName": "Esomeprazole"
+        },
+        {
+          "Name": "CYP2C19-Liu 2005 - Ki in vivo unbound",
+          "MoleculeName": "CYP2C19",
+          "CompoundName": "Esomeprazole"
+        },
+        {
+          "Name": "CYP2C19-Liu 2005 - Ki in vivo unbound",
+          "MoleculeName": "CYP2C19",
+          "CompoundName": "R-omeprazole"
+        },
+        {
+          "Name": "CYP2C19-Wu2014 - Table1 - TDI",
+          "MoleculeName": "CYP2C19",
+          "CompoundName": "R-omeprazole"
+        }
+      ]
+    },
+    {
+      "Name": "omeprazole 40mg po asian PM",
+      "Model": "4Comp",
+      "ObservedData": [
+        "Cho2002.Mean Ompz.20mg.po.PM"
+      ],
+      "Solver": {},
+      "OutputSchema": [
+        {
+          "Parameters": [
+            {
+              "Name": "Start time",
+              "Value": 0.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "End time",
+              "Value": 2.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "Resolution",
+              "Value": 20.0,
+              "Unit": "pts/h"
+            }
+          ]
+        },
+        {
+          "Parameters": [
+            {
+              "Name": "Start time",
+              "Value": 2.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "End time",
+              "Value": 12.0,
+              "Unit": "h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            },
+            {
+              "Name": "Resolution",
+              "Value": 4.0,
+              "Unit": "pts/h"
+            }
+          ]
+        }
+      ],
+      "Parameters": [
+        {
+          "Path": "Applications|R-Omeprazole 20mg po|Omeprazole capsule|Application_1|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|S-Omeprazole 20mg po|Omeprazole capsule|Application_1|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        }
+      ],
+      "OutputSelections": [
+        "Organism|PeripheralVenousBlood|Esomeprazole|Omeprazole Plasma (Peripheral Venous Blood)"
+      ],
+      "Individual": "Japanese CYP2C19 DDI",
+      "Compounds": [
+        {
+          "Name": "Esomeprazole",
+          "CalculationMethods": [
+            "Cellular partition coefficient method - Rodgers and Rowland",
+            "Cellular permeability - PK-Sim Standard"
+          ],
+          "Alternatives": [
+            {
+              "AlternativeName": "Fit",
+              "GroupName": "COMPOUND_INTESTINAL_PERMEABILITY"
+            }
+          ],
+          "Processes": [
+            {
+              "Name": "CYP3A4-3A4 Linear Fit",
+              "MoleculeName": "CYP3A4"
+            },
+            {
+              "MoleculeName": "CYP2C19"
+            },
+            {
+              "MoleculeName": "CYP2D6"
+            },
+            {
+              "MoleculeName": "CYP1A2"
+            },
+            {
+              "MoleculeName": "FMO_other"
+            },
+            {
+              "Name": "Renal Clearances-Wu2014 - Table1 - CLr",
+              "SystemicProcessType": "Renal"
+            }
+          ],
+          "Protocol": {
+            "Name": "S-Omeprazole 20mg po",
+            "Formulations": [
+              {
+                "Name": "Omeprazole capsule",
+                "Key": "Formulation"
+              }
+            ]
+          }
+        },
+        {
+          "Name": "Omeprazole",
+          "CalculationMethods": [
+            "Cellular partition coefficient method - Rodgers and Rowland",
+            "Cellular permeability - PK-Sim Standard"
+          ],
+          "Alternatives": [
+            {
+              "AlternativeName": "Fit",
+              "GroupName": "COMPOUND_INTESTINAL_PERMEABILITY"
+            }
+          ],
+          "Processes": [
+            {
+              "Name": "CYP3A4-3A4 Linear Fit",
+              "MoleculeName": "CYP3A4"
+            },
+            {
+              "MoleculeName": "CYP2C19"
+            },
+            {
+              "MoleculeName": "CYP2D6"
+            },
+            {
+              "MoleculeName": "CYP1A2"
+            },
+            {
+              "MoleculeName": "FMO_other"
+            },
+            {
+              "Name": "Renal Clearances-Wu2014 - Table1 - CLr",
+              "SystemicProcessType": "Renal"
+            }
+          ]
+        },
+        {
+          "Name": "R-omeprazole",
+          "CalculationMethods": [
+            "Cellular partition coefficient method - Rodgers and Rowland",
+            "Cellular permeability - PK-Sim Standard"
+          ],
+          "Alternatives": [
+            {
+              "AlternativeName": "Fit",
+              "GroupName": "COMPOUND_INTESTINAL_PERMEABILITY"
+            }
+          ],
+          "Processes": [
+            {
+              "Name": "CYP3A4-3A4 Linear Fit",
+              "MoleculeName": "CYP3A4"
+            },
+            {
+              "MoleculeName": "CYP2C19"
+            },
+            {
+              "MoleculeName": "CYP2D6"
+            },
+            {
+              "MoleculeName": "CYP1A2"
+            },
+            {
+              "MoleculeName": "FMO_other"
+            },
+            {
+              "Name": "Renal Clearances-Wu2014 - Table1 - CLr",
+              "SystemicProcessType": "Renal"
+            }
+          ],
+          "Protocol": {
+            "Name": "R-Omeprazole 20mg po",
+            "Formulations": [
+              {
+                "Name": "Omeprazole capsule",
+                "Key": "Formulation"
+              }
+            ]
+          }
+        }
+      ],
+      "ObserverSets": [
+        {
+          "Name": "Omeprazole Plasma (Peripheral Venous Blood)"
+        }
+      ],
+      "HasResults": true,
+      "IndividualAnalyses": [
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "µmol/l",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Log",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "Omeprazole simulated",
+              "X": "Time",
+              "Y": "omeprazole 40mg po asian PM|Organism|PeripheralVenousBlood|Esomeprazole|Omeprazole Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 1
+              }
+            },
+            {
+              "Name": "Cho2002.Mean Ompz.20mg.po.PM-Omeprazole-Peripheral Venous Blood-Plasma-CentralMeasure",
+              "X": "Cho2002.Mean Ompz.20mg.po.PM|Time",
+              "Y": "Cho2002.Mean Ompz.20mg.po.PM|ObservedData|Peripheral Venous Blood|Plasma|Omeprazole|CentralMeasure",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 3,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ],
+          "Name": "Omeprazole 40mg po asian PM",
+          "Title": "Omeprazole 40mg po asian PM",
+          "OriginText": "Omeprazole-Moclobemide-DDI\nomeprazole 40mg po asian PM\n2020-06-26 19:31"
+        }
+      ],
+      "Interactions": [
+        {
+          "Name": "CYP2C19-Wu2014 - Table1 - TDI",
+          "MoleculeName": "CYP2C19",
+          "CompoundName": "Esomeprazole"
+        },
+        {
+          "Name": "CYP2C19-Liu 2005 - Ki in vivo unbound",
+          "MoleculeName": "CYP2C19",
+          "CompoundName": "Esomeprazole"
+        },
+        {
+          "Name": "CYP2C19-Liu 2005 - Ki in vivo unbound",
+          "MoleculeName": "CYP2C19",
+          "CompoundName": "R-omeprazole"
+        },
+        {
+          "Name": "CYP2C19-Wu2014 - Table1 - TDI",
+          "MoleculeName": "CYP2C19",
+          "CompoundName": "R-omeprazole"
+        }
+      ]
+    },
+    {
+      "Name": "omeprazole 40mg po asian PM moclobemide 300mg po",
+      "Model": "4Comp",
+      "ObservedData": [
+        "Cho2002.Mean Ompz.20mg.po.EM",
+        "Cho2002.Mean Ompz+Moc.20mg.po.EM",
+        "Cho2002.Mean Ompz+Moc.20mg.po.PM"
+      ],
+      "Solver": {},
+      "OutputSchema": [
+        {
+          "Parameters": [
+            {
+              "Name": "Start time",
+              "Value": 0.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "End time",
+              "Value": 2.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "Resolution",
+              "Value": 20.0,
+              "Unit": "pts/h"
+            }
+          ]
+        },
+        {
+          "Parameters": [
+            {
+              "Name": "Start time",
+              "Value": 2.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "End time",
+              "Value": 12.0,
+              "Unit": "h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            },
+            {
+              "Name": "Resolution",
+              "Value": 4.0,
+              "Unit": "pts/h"
+            }
+          ]
+        }
+      ],
+      "Parameters": [
+        {
+          "Path": "Applications|Moclobemide 300mg po|Moclobemide tablet|Application_1|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|R-Omeprazole 20mg po|Omeprazole capsule|Application_1|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|S-Omeprazole 20mg po|Omeprazole capsule|Application_1|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        }
+      ],
+      "OutputSelections": [
+        "Organism|PeripheralVenousBlood|Esomeprazole|Omeprazole Plasma (Peripheral Venous Blood)"
+      ],
+      "Individual": "Japanese CYP2C19 DDI",
+      "Compounds": [
+        {
+          "Name": "Esomeprazole",
+          "CalculationMethods": [
+            "Cellular partition coefficient method - Rodgers and Rowland",
+            "Cellular permeability - PK-Sim Standard"
+          ],
+          "Alternatives": [
+            {
+              "AlternativeName": "Fit",
+              "GroupName": "COMPOUND_INTESTINAL_PERMEABILITY"
+            }
+          ],
+          "Processes": [
+            {
+              "Name": "CYP3A4-3A4 Linear Fit",
+              "MoleculeName": "CYP3A4"
+            },
+            {
+              "MoleculeName": "CYP2C19"
+            },
+            {
+              "MoleculeName": "CYP2D6"
+            },
+            {
+              "MoleculeName": "CYP1A2"
+            },
+            {
+              "MoleculeName": "FMO_other"
+            },
+            {
+              "Name": "Renal Clearances-Wu2014 - Table1 - CLr",
+              "SystemicProcessType": "Renal"
+            }
+          ],
+          "Protocol": {
+            "Name": "S-Omeprazole 20mg po",
+            "Formulations": [
+              {
+                "Name": "Omeprazole capsule",
+                "Key": "Formulation"
+              }
+            ]
+          }
+        },
+        {
+          "Name": "Omeprazole",
+          "CalculationMethods": [
+            "Cellular partition coefficient method - Rodgers and Rowland",
+            "Cellular permeability - PK-Sim Standard"
+          ],
+          "Alternatives": [
+            {
+              "AlternativeName": "Fit",
+              "GroupName": "COMPOUND_INTESTINAL_PERMEABILITY"
+            }
+          ],
+          "Processes": [
+            {
+              "Name": "CYP3A4-3A4 Linear Fit",
+              "MoleculeName": "CYP3A4"
+            },
+            {
+              "MoleculeName": "CYP2C19"
+            },
+            {
+              "MoleculeName": "CYP2D6"
+            },
+            {
+              "MoleculeName": "CYP1A2"
+            },
+            {
+              "MoleculeName": "FMO_other"
+            },
+            {
+              "Name": "Renal Clearances-Wu2014 - Table1 - CLr",
+              "SystemicProcessType": "Renal"
+            }
+          ]
+        },
+        {
+          "Name": "R-omeprazole",
+          "CalculationMethods": [
+            "Cellular partition coefficient method - Rodgers and Rowland",
+            "Cellular permeability - PK-Sim Standard"
+          ],
+          "Alternatives": [
+            {
+              "AlternativeName": "Fit",
+              "GroupName": "COMPOUND_INTESTINAL_PERMEABILITY"
+            }
+          ],
+          "Processes": [
+            {
+              "Name": "CYP3A4-3A4 Linear Fit",
+              "MoleculeName": "CYP3A4"
+            },
+            {
+              "MoleculeName": "CYP2C19"
+            },
+            {
+              "MoleculeName": "CYP2D6"
+            },
+            {
+              "MoleculeName": "CYP1A2"
+            },
+            {
+              "MoleculeName": "FMO_other"
+            },
+            {
+              "Name": "Renal Clearances-Wu2014 - Table1 - CLr",
+              "SystemicProcessType": "Renal"
+            }
+          ],
+          "Protocol": {
+            "Name": "R-Omeprazole 20mg po",
+            "Formulations": [
+              {
+                "Name": "Omeprazole capsule",
+                "Key": "Formulation"
+              }
+            ]
+          }
+        },
+        {
+          "Name": "Moclobemide",
+          "CalculationMethods": [
+            "Cellular partition coefficient method - Rodgers and Rowland",
+            "Cellular permeability - PK-Sim Standard"
+          ],
+          "Processes": [
+            {
+              "MoleculeName": "CYP3A4"
+            },
+            {
+              "MoleculeName": "CYP2C19"
+            },
+            {
+              "MoleculeName": "CYP2D6"
+            },
+            {
+              "MoleculeName": "CYP1A2"
+            },
+            {
+              "Name": "FMO_other-Intrinsic-CL-fit",
+              "MoleculeName": "FMO_other"
+            },
+            {
+              "Name": "Renal Clearances-Schoerlin 1987",
+              "SystemicProcessType": "Renal"
+            }
+          ],
+          "Protocol": {
+            "Name": "Moclobemide 300mg po",
+            "Formulations": [
+              {
+                "Name": "Moclobemide tablet",
+                "Key": "Formulation"
+              }
+            ]
+          }
+        }
+      ],
+      "ObserverSets": [
+        {
+          "Name": "Omeprazole Plasma (Peripheral Venous Blood)"
+        }
+      ],
+      "HasResults": true,
+      "IndividualAnalyses": [
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "µmol/l",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "Min": 0.001,
+              "Max": 2.173971,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Log",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "Omeprazole simulated",
+              "X": "Time",
+              "Y": "omeprazole 40mg po asian PM moclobemide 300mg po|Organism|PeripheralVenousBlood|Esomeprazole|Omeprazole Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 1
+              }
+            },
+            {
+              "Name": "Cho2002.Mean Ompz+Moc.20mg.po.PM-Omeprazole-Peripheral Venous Blood-Plasma-CentralMeasure",
+              "X": "Cho2002.Mean Ompz+Moc.20mg.po.PM|Time",
+              "Y": "Cho2002.Mean Ompz+Moc.20mg.po.PM|ObservedData|Peripheral Venous Blood|Plasma|Omeprazole|CentralMeasure",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 4,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ],
+          "Name": "Omeprazole 40mg po asian EM moclobemide 300mg",
+          "OriginText": "Omeprazole-Moclobemide-DDI\nomeprazole 40mg po asian PM moclobemide 300mg po\n2020-06-26 19:32"
+        }
+      ],
+      "Interactions": [
+        {
+          "Name": "CYP2C19-Wu2014 - Table1 - TDI",
+          "MoleculeName": "CYP2C19",
+          "CompoundName": "Esomeprazole"
+        },
+        {
+          "Name": "CYP2C19-Liu 2005 - Ki in vivo unbound",
+          "MoleculeName": "CYP2C19",
+          "CompoundName": "Esomeprazole"
+        },
+        {
+          "Name": "CYP2C19-Liu 2005 - Ki in vivo unbound",
+          "MoleculeName": "CYP2C19",
+          "CompoundName": "R-omeprazole"
+        },
+        {
+          "Name": "CYP2C19-Wu2014 - Table1 - TDI",
+          "MoleculeName": "CYP2C19",
+          "CompoundName": "R-omeprazole"
+        },
+        {
+          "Name": "CYP2C19-Kramer-unbound",
+          "MoleculeName": "CYP2C19",
+          "CompoundName": "Moclobemide"
+        },
+        {
+          "Name": "CYP2C19-TimeDep_AutoInh-fit",
+          "MoleculeName": "CYP2C19",
+          "CompoundName": "Moclobemide"
+        }
+      ]
+    },
+    {
+      "Name": "omeprazole 40mg po asian EM moclobemide 300mg po",
+      "Model": "4Comp",
+      "ObservedData": [
+        "Cho2002.Mean Ompz.20mg.po.EM",
+        "Cho2002.Mean Ompz+Moc.20mg.po.EM",
+        "Yu2001.Asian.Moclobemide.300.po.sd.EM+OMP40sd"
+      ],
+      "Solver": {},
+      "OutputSchema": [
+        {
+          "Parameters": [
+            {
+              "Name": "Start time",
+              "Value": 0.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "End time",
+              "Value": 2.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "Resolution",
+              "Value": 20.0,
+              "Unit": "pts/h"
+            }
+          ]
+        },
+        {
+          "Parameters": [
+            {
+              "Name": "Start time",
+              "Value": 2.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "End time",
+              "Value": 24.0,
+              "Unit": "h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            },
+            {
+              "Name": "Resolution",
+              "Value": 4.0,
+              "Unit": "pts/h"
+            }
+          ]
+        }
+      ],
+      "Parameters": [
+        {
+          "Path": "Applications|Moclobemide 300mg po|Moclobemide tablet|Application_1|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|R-Omeprazole 20mg po|Omeprazole capsule|Application_1|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|S-Omeprazole 20mg po|Omeprazole capsule|Application_1|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        }
+      ],
+      "OutputSelections": [
+        "Organism|PeripheralVenousBlood|Esomeprazole|Omeprazole Plasma (Peripheral Venous Blood)",
+        "Organism|PeripheralVenousBlood|Esomeprazole|Plasma (Peripheral Venous Blood)",
+        "Organism|PeripheralVenousBlood|Omeprazole|Plasma (Peripheral Venous Blood)",
+        "Organism|PeripheralVenousBlood|R-omeprazole|Plasma (Peripheral Venous Blood)",
+        "Organism|PeripheralVenousBlood|Moclobemide|Plasma (Peripheral Venous Blood)"
+      ],
+      "Individual": "Japanese CYP2C19 DDI",
+      "Compounds": [
+        {
+          "Name": "Esomeprazole",
+          "CalculationMethods": [
+            "Cellular partition coefficient method - Rodgers and Rowland",
+            "Cellular permeability - PK-Sim Standard"
+          ],
+          "Alternatives": [
+            {
+              "AlternativeName": "Fit",
+              "GroupName": "COMPOUND_INTESTINAL_PERMEABILITY"
+            }
+          ],
+          "Processes": [
+            {
+              "Name": "CYP3A4-3A4 Linear Fit",
+              "MoleculeName": "CYP3A4"
+            },
+            {
+              "Name": "CYP2C19-2C19 Linear Fit",
+              "MoleculeName": "CYP2C19"
+            },
+            {
+              "MoleculeName": "CYP2D6"
+            },
+            {
+              "MoleculeName": "CYP1A2"
+            },
+            {
+              "MoleculeName": "FMO_other"
+            },
+            {
+              "Name": "Renal Clearances-Wu2014 - Table1 - CLr",
+              "SystemicProcessType": "Renal"
+            }
+          ],
+          "Protocol": {
+            "Name": "S-Omeprazole 20mg po",
+            "Formulations": [
+              {
+                "Name": "Omeprazole capsule",
+                "Key": "Formulation"
+              }
+            ]
+          }
+        },
+        {
+          "Name": "Omeprazole",
+          "CalculationMethods": [
+            "Cellular partition coefficient method - Rodgers and Rowland",
+            "Cellular permeability - PK-Sim Standard"
+          ],
+          "Alternatives": [
+            {
+              "AlternativeName": "Fit",
+              "GroupName": "COMPOUND_INTESTINAL_PERMEABILITY"
+            }
+          ],
+          "Processes": [
+            {
+              "Name": "CYP3A4-3A4 Linear Fit",
+              "MoleculeName": "CYP3A4"
+            },
+            {
+              "Name": "CYP2C19-2C19 Linear Fit",
+              "MoleculeName": "CYP2C19"
+            },
+            {
+              "MoleculeName": "CYP2D6"
+            },
+            {
+              "MoleculeName": "CYP1A2"
+            },
+            {
+              "MoleculeName": "FMO_other"
+            },
+            {
+              "Name": "Renal Clearances-Wu2014 - Table1 - CLr",
+              "SystemicProcessType": "Renal"
+            }
+          ]
+        },
+        {
+          "Name": "R-omeprazole",
+          "CalculationMethods": [
+            "Cellular partition coefficient method - Rodgers and Rowland",
+            "Cellular permeability - PK-Sim Standard"
+          ],
+          "Alternatives": [
+            {
+              "AlternativeName": "Fit",
+              "GroupName": "COMPOUND_INTESTINAL_PERMEABILITY"
+            }
+          ],
+          "Processes": [
+            {
+              "Name": "CYP3A4-3A4 Linear Fit",
+              "MoleculeName": "CYP3A4"
+            },
+            {
+              "Name": "CYP2C19-2C19 Linear Fit",
+              "MoleculeName": "CYP2C19"
+            },
+            {
+              "MoleculeName": "CYP2D6"
+            },
+            {
+              "MoleculeName": "CYP1A2"
+            },
+            {
+              "MoleculeName": "FMO_other"
+            },
+            {
+              "Name": "Renal Clearances-Wu2014 - Table1 - CLr",
+              "SystemicProcessType": "Renal"
+            }
+          ],
+          "Protocol": {
+            "Name": "R-Omeprazole 20mg po",
+            "Formulations": [
+              {
+                "Name": "Omeprazole capsule",
+                "Key": "Formulation"
+              }
+            ]
+          }
+        },
+        {
+          "Name": "Moclobemide",
+          "CalculationMethods": [
+            "Cellular partition coefficient method - Rodgers and Rowland",
+            "Cellular permeability - PK-Sim Standard"
+          ],
+          "Processes": [
+            {
+              "MoleculeName": "CYP3A4"
+            },
+            {
+              "Name": "CYP2C19-Intrinsic-CL_MM_fit",
+              "MoleculeName": "CYP2C19"
+            },
+            {
+              "MoleculeName": "CYP2D6"
+            },
+            {
+              "MoleculeName": "CYP1A2"
+            },
+            {
+              "Name": "FMO_other-Intrinsic-CL-fit",
+              "MoleculeName": "FMO_other"
+            },
+            {
+              "Name": "Renal Clearances-Schoerlin 1987",
+              "SystemicProcessType": "Renal"
+            }
+          ],
+          "Protocol": {
+            "Name": "Moclobemide 300mg po",
+            "Formulations": [
+              {
+                "Name": "Moclobemide tablet",
+                "Key": "Formulation"
+              }
+            ]
+          }
+        }
+      ],
+      "ObserverSets": [
+        {
+          "Name": "Omeprazole Plasma (Peripheral Venous Blood)"
+        }
+      ],
+      "HasResults": true,
+      "IndividualAnalyses": [
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "µmol/l",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Log",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "Omeprazole simulated",
+              "X": "Time",
+              "Y": "omeprazole 40mg po asian EM moclobemide 300mg po|Organism|PeripheralVenousBlood|Esomeprazole|Omeprazole Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 1
+              }
+            },
+            {
+              "Name": "Cho2002.Mean Ompz+Moc.20mg.po.EM-Omeprazole-Peripheral Venous Blood-Plasma-CentralMeasure",
+              "X": "Cho2002.Mean Ompz+Moc.20mg.po.EM|Time",
+              "Y": "Cho2002.Mean Ompz+Moc.20mg.po.EM|ObservedData|Peripheral Venous Blood|Plasma|Omeprazole|CentralMeasure",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 3,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            },
+            {
+              "Name": "Yu2001.Asian.Moclobemide.300.po.sd.EM+OMP40sd-Moclobemide-Peripheral Venous Blood-Plasma-CentralMeasure",
+              "X": "Yu2001.Asian.Moclobemide.300.po.sd.EM+OMP40sd|Time",
+              "Y": "Yu2001.Asian.Moclobemide.300.po.sd.EM+OMP40sd|ObservedData|Peripheral Venous Blood|Plasma|Moclobemide|CentralMeasure",
+              "CurveOptions": {
+                "Color": "#0000FF",
+                "LegendIndex": 4,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            },
+            {
+              "Name": "Moclobemide-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "omeprazole 40mg po asian EM moclobemide 300mg po|Organism|PeripheralVenousBlood|Moclobemide|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#0000FF",
+                "LegendIndex": 5
+              }
+            }
+          ],
+          "Name": "Omeprazole 40mg po asian EM moclobemide 300mg",
+          "Title": "Omeprazole 40mg po asian EM moclobemide 300mg",
+          "OriginText": "Omeprazole-Moclobemide-DDI\nomeprazole 40mg po asian EM moclobemide 300mg po\n2020-06-29 14:47"
+        }
+      ],
+      "Interactions": [
+        {
+          "Name": "CYP2C19-Wu2014 - Table1 - TDI",
+          "MoleculeName": "CYP2C19",
+          "CompoundName": "Esomeprazole"
+        },
+        {
+          "Name": "CYP2C19-Liu 2005 - Ki in vivo unbound",
+          "MoleculeName": "CYP2C19",
+          "CompoundName": "Esomeprazole"
+        },
+        {
+          "Name": "CYP2C19-Liu 2005 - Ki in vivo unbound",
+          "MoleculeName": "CYP2C19",
+          "CompoundName": "R-omeprazole"
+        },
+        {
+          "Name": "CYP2C19-Wu2014 - Table1 - TDI",
+          "MoleculeName": "CYP2C19",
+          "CompoundName": "R-omeprazole"
+        },
+        {
+          "Name": "CYP2C19-Kramer-unbound",
+          "MoleculeName": "CYP2C19",
+          "CompoundName": "Moclobemide"
+        },
+        {
+          "Name": "CYP2C19-TimeDep_AutoInh-fit",
+          "MoleculeName": "CYP2C19",
+          "CompoundName": "Moclobemide"
+        }
+      ]
+    },
+    {
+      "Name": "moclobemide 300mg po asian EM",
+      "Model": "4Comp",
+      "ObservedData": [
+        "Yu2001.Asian.Moclobemide.300.po.sd.EM"
+      ],
+      "Solver": {},
+      "OutputSchema": [
+        {
+          "Parameters": [
+            {
+              "Name": "Start time",
+              "Value": 0.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "End time",
+              "Value": 2.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "Resolution",
+              "Value": 20.0,
+              "Unit": "pts/h"
+            }
+          ]
+        },
+        {
+          "Parameters": [
+            {
+              "Name": "Start time",
+              "Value": 2.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "End time",
+              "Value": 24.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "Resolution",
+              "Value": 4.0,
+              "Unit": "pts/h"
+            }
+          ]
+        }
+      ],
+      "Parameters": [
+        {
+          "Path": "Applications|Moclobemide 300mg po|Moclobemide tablet|Application_1|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        }
+      ],
+      "OutputSelections": [
+        "Organism|PeripheralVenousBlood|Moclobemide|Plasma (Peripheral Venous Blood)"
+      ],
+      "Individual": "Japanese CYP2C19 DDI",
+      "Compounds": [
+        {
+          "Name": "Moclobemide",
+          "CalculationMethods": [
+            "Cellular partition coefficient method - Rodgers and Rowland",
+            "Cellular permeability - PK-Sim Standard"
+          ],
+          "Processes": [
+            {
+              "MoleculeName": "CYP3A4"
+            },
+            {
+              "Name": "CYP2C19-Intrinsic-CL_MM_fit",
+              "MoleculeName": "CYP2C19"
+            },
+            {
+              "MoleculeName": "CYP2D6"
+            },
+            {
+              "MoleculeName": "CYP1A2"
+            },
+            {
+              "Name": "FMO_other-Intrinsic-CL-fit",
+              "MoleculeName": "FMO_other"
+            },
+            {
+              "Name": "Renal Clearances-Schoerlin 1987",
+              "SystemicProcessType": "Renal"
+            }
+          ],
+          "Protocol": {
+            "Name": "Moclobemide 300mg po",
+            "Formulations": [
+              {
+                "Name": "Moclobemide tablet",
+                "Key": "Formulation"
+              }
+            ]
+          }
+        }
+      ],
+      "HasResults": true,
+      "IndividualAnalyses": [
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "µmol/l",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Log",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "Moclobemide-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "moclobemide 300mg po asian EM|Organism|PeripheralVenousBlood|Moclobemide|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 1
+              }
+            },
+            {
+              "Name": "Yu2001.Asian.Moclobemide.300.po.sd.EM-Moclobemide-Peripheral Venous Blood-Plasma-CentralMeasure",
+              "X": "Yu2001.Asian.Moclobemide.300.po.sd.EM|Time",
+              "Y": "Yu2001.Asian.Moclobemide.300.po.sd.EM|ObservedData|Peripheral Venous Blood|Plasma|Moclobemide|CentralMeasure",
+              "CurveOptions": {
+                "Color": "#0000FF",
+                "LegendIndex": 2,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ],
+          "Name": "Time Profile Analysis",
+          "OriginText": "Omeprazole-Moclobemide-DDI\nmoclobemide 300mg po asian EM\n2020-06-29 14:38"
+        }
+      ],
+      "Interactions": [
+        {
+          "Name": "CYP2C19-Kramer-unbound",
+          "MoleculeName": "CYP2C19",
+          "CompoundName": "Moclobemide"
+        },
+        {
+          "Name": "CYP2C19-TimeDep_AutoInh-fit",
+          "MoleculeName": "CYP2C19",
+          "CompoundName": "Moclobemide"
+        }
+      ]
+    }
+  ],
+  "ObservedData": [
+    {
+      "Name": "Cho2002.Mean Ompz.20mg.po.EM",
+      "ExtendedProperties": [
+        {
+          "Name": "Source",
+          "Value": "C:\\Exprimo\\Clients\\Boehringer\\1375a_BI_TK_BI409306_PBPK_DDI\\OriginalData\\Clinical_Data_Publications\\_DataExtraction\\Data_extract_Omeprazole.xlsx.Cho2002"
+        },
+        {
+          "Name": "File",
+          "Value": "Data_extract_Omeprazole"
+        },
+        {
+          "Name": "Sheet",
+          "Value": "Cho2002"
+        },
+        {
+          "Name": "Molecule",
+          "Value": "Omeprazole"
+        },
+        {
+          "Name": "Species",
+          "Value": "Human"
+        },
+        {
+          "Name": "Organ",
+          "Value": "Peripheral Venous Blood"
+        },
+        {
+          "Name": "Compartment",
+          "Value": "Plasma"
+        },
+        {
+          "Name": "Study Id",
+          "Value": "Mean Ompz"
+        },
+        {
+          "Name": "Dose",
+          "Value": "20"
+        },
+        {
+          "Name": "Route",
+          "Value": "po"
+        },
+        {
+          "Name": "Patient Id",
+          "Value": "EM"
+        }
+      ],
+      "Columns": [
+        {
+          "Name": "CentralMeasure",
+          "QuantityInfo": {
+            "Name": "CentralMeasure",
+            "Path": "Cho2002.Mean Ompz.20mg.po.EM|ObservedData|Peripheral Venous Blood|Plasma|Omeprazole|CentralMeasure"
+          },
+          "DataInfo": {
+            "Origin": "Observation",
+            "AuxiliaryType": "Undefined",
+            "Date": "2018-09-13T10:46:14.4895503+02:00",
+            "Source": "Data_extract_Omeprazole.Cho2002.1.CentralMeasure",
+            "MolWeight": 345.416
+          },
+          "Values": [
+            0.380397052,
+            0.7509244,
+            0.5162334,
+            0.4520269,
+            0.327858329,
+            0.246319309,
+            0.113645069,
+            0.0704574659,
+            0.04377381,
+            0.0202184748
+          ],
+          "Dimension": "Concentration (mass)",
+          "Unit": "mg/l"
+        }
+      ],
+      "BaseGrid": {
+        "Name": "Time",
+        "QuantityInfo": {
+          "Name": "Time",
+          "Path": "Cho2002.Mean Ompz.20mg.po.EM|Time",
+          "Type": "Time"
+        },
+        "DataInfo": {
+          "Origin": "BaseGrid",
+          "AuxiliaryType": "Undefined",
+          "Date": "2018-09-13T10:46:14.4895503+02:00",
+          "Source": "Data_extract_Omeprazole.Cho2002.1.Time"
+        },
+        "Values": [
+          0.5510338,
+          0.922880054,
+          1.47904313,
+          1.98244774,
+          3.019187,
+          4.02785635,
+          5.034496,
+          6.044687,
+          8.007914,
+          11.965313
+        ],
+        "Dimension": "Time",
+        "Unit": "h"
+      }
+    },
+    {
+      "Name": "Cho2002.Mean Ompz.20mg.po.PM",
+      "ExtendedProperties": [
+        {
+          "Name": "Source",
+          "Value": "C:\\Exprimo\\Clients\\Boehringer\\1375a_BI_TK_BI409306_PBPK_DDI\\OriginalData\\Clinical_Data_Publications\\_DataExtraction\\Data_extract_Omeprazole.xlsx.Cho2002"
+        },
+        {
+          "Name": "File",
+          "Value": "Data_extract_Omeprazole"
+        },
+        {
+          "Name": "Sheet",
+          "Value": "Cho2002"
+        },
+        {
+          "Name": "Molecule",
+          "Value": "Omeprazole"
+        },
+        {
+          "Name": "Species",
+          "Value": "Human"
+        },
+        {
+          "Name": "Organ",
+          "Value": "Peripheral Venous Blood"
+        },
+        {
+          "Name": "Compartment",
+          "Value": "Plasma"
+        },
+        {
+          "Name": "Study Id",
+          "Value": "Mean Ompz"
+        },
+        {
+          "Name": "Dose",
+          "Value": "20"
+        },
+        {
+          "Name": "Route",
+          "Value": "po"
+        },
+        {
+          "Name": "Patient Id",
+          "Value": "PM"
+        }
+      ],
+      "Columns": [
+        {
+          "Name": "CentralMeasure",
+          "QuantityInfo": {
+            "Name": "CentralMeasure",
+            "Path": "Cho2002.Mean Ompz.20mg.po.PM|ObservedData|Peripheral Venous Blood|Plasma|Omeprazole|CentralMeasure"
+          },
+          "DataInfo": {
+            "Origin": "Observation",
+            "AuxiliaryType": "Undefined",
+            "Date": "2018-09-13T10:46:14.4895503+02:00",
+            "Source": "Data_extract_Omeprazole.Cho2002.3.CentralMeasure",
+            "MolWeight": 345.416
+          },
+          "Values": [
+            0.0766843,
+            0.3286786,
+            1.71306539,
+            2.13592172,
+            2.07992029,
+            1.4726541,
+            1.16879129,
+            0.7752241,
+            0.368377179,
+            0.106024526
+          ],
+          "Dimension": "Concentration (mass)",
+          "Unit": "mg/l"
+        }
+      ],
+      "BaseGrid": {
+        "Name": "Time",
+        "QuantityInfo": {
+          "Name": "Time",
+          "Path": "Cho2002.Mean Ompz.20mg.po.PM|Time",
+          "Type": "Time"
+        },
+        "DataInfo": {
+          "Origin": "BaseGrid",
+          "AuxiliaryType": "Undefined",
+          "Date": "2018-09-13T10:46:14.4895503+02:00",
+          "Source": "Data_extract_Omeprazole.Cho2002.3.Time"
+        },
+        "Values": [
+          0.583743,
+          0.917116,
+          1.45212865,
+          1.96800637,
+          3.01166821,
+          4.01450872,
+          5.05323744,
+          6.000629,
+          8.022384,
+          11.92761
+        ],
+        "Dimension": "Time",
+        "Unit": "h"
+      }
+    },
+    {
+      "Name": "Cho2002.Mean Ompz+Moc.20mg.po.EM",
+      "ExtendedProperties": [
+        {
+          "Name": "Source",
+          "Value": "C:\\Exprimo\\Clients\\Boehringer\\1375a_BI_TK_BI409306_PBPK_DDI\\OriginalData\\Clinical_Data_Publications\\_DataExtraction\\Data_extract_Omeprazole.xlsx.Cho2002"
+        },
+        {
+          "Name": "File",
+          "Value": "Data_extract_Omeprazole"
+        },
+        {
+          "Name": "Sheet",
+          "Value": "Cho2002"
+        },
+        {
+          "Name": "Molecule",
+          "Value": "Omeprazole"
+        },
+        {
+          "Name": "Species",
+          "Value": "Human"
+        },
+        {
+          "Name": "Organ",
+          "Value": "Peripheral Venous Blood"
+        },
+        {
+          "Name": "Compartment",
+          "Value": "Plasma"
+        },
+        {
+          "Name": "Study Id",
+          "Value": "Mean Ompz+Moc"
+        },
+        {
+          "Name": "Dose",
+          "Value": "20"
+        },
+        {
+          "Name": "Route",
+          "Value": "po"
+        },
+        {
+          "Name": "Patient Id",
+          "Value": "EM"
+        }
+      ],
+      "Columns": [
+        {
+          "Name": "CentralMeasure",
+          "QuantityInfo": {
+            "Name": "CentralMeasure",
+            "Path": "Cho2002.Mean Ompz+Moc.20mg.po.EM|ObservedData|Peripheral Venous Blood|Plasma|Omeprazole|CentralMeasure"
+          },
+          "DataInfo": {
+            "Origin": "Observation",
+            "AuxiliaryType": "Undefined",
+            "Date": "2018-09-13T10:46:14.4895503+02:00",
+            "Source": "Data_extract_Omeprazole.Cho2002.2.CentralMeasure",
+            "MolWeight": 345.416
+          },
+          "Values": [
+            0.0235756934,
+            0.09606651,
+            0.749940336,
+            1.05125237,
+            0.9201431,
+            0.9086646,
+            0.468369663,
+            0.27519542,
+            0.187419072,
+            0.07727687,
+            0.0277864188
+          ],
+          "Dimension": "Concentration (mass)",
+          "Unit": "mg/l"
+        }
+      ],
+      "BaseGrid": {
+        "Name": "Time",
+        "QuantityInfo": {
+          "Name": "Time",
+          "Path": "Cho2002.Mean Ompz+Moc.20mg.po.EM|Time",
+          "Type": "Time"
+        },
+        "DataInfo": {
+          "Origin": "BaseGrid",
+          "AuxiliaryType": "Undefined",
+          "Date": "2018-09-13T10:46:14.4895503+02:00",
+          "Source": "Data_extract_Omeprazole.Cho2002.2.Time"
+        },
+        "Values": [
+          0.211341813,
+          0.5441622,
+          0.976194263,
+          1.52113724,
+          2.02354026,
+          3.03829646,
+          4.061416,
+          5.068962,
+          6.05531073,
+          8.030602,
+          11.9879637
+        ],
+        "Dimension": "Time",
+        "Unit": "h"
+      }
+    },
+    {
+      "Name": "Cho2002.Mean Ompz+Moc.20mg.po.PM",
+      "ExtendedProperties": [
+        {
+          "Name": "Source",
+          "Value": "C:\\Exprimo\\Clients\\Boehringer\\1375a_BI_TK_BI409306_PBPK_DDI\\OriginalData\\Clinical_Data_Publications\\_DataExtraction\\Data_extract_Omeprazole.xlsx.Cho2002"
+        },
+        {
+          "Name": "File",
+          "Value": "Data_extract_Omeprazole"
+        },
+        {
+          "Name": "Sheet",
+          "Value": "Cho2002"
+        },
+        {
+          "Name": "Molecule",
+          "Value": "Omeprazole"
+        },
+        {
+          "Name": "Species",
+          "Value": "Human"
+        },
+        {
+          "Name": "Organ",
+          "Value": "Peripheral Venous Blood"
+        },
+        {
+          "Name": "Compartment",
+          "Value": "Plasma"
+        },
+        {
+          "Name": "Study Id",
+          "Value": "Mean Ompz+Moc"
+        },
+        {
+          "Name": "Dose",
+          "Value": "20"
+        },
+        {
+          "Name": "Route",
+          "Value": "po"
+        },
+        {
+          "Name": "Patient Id",
+          "Value": "PM"
+        }
+      ],
+      "Columns": [
+        {
+          "Name": "CentralMeasure",
+          "QuantityInfo": {
+            "Name": "CentralMeasure",
+            "Path": "Cho2002.Mean Ompz+Moc.20mg.po.PM|ObservedData|Peripheral Venous Blood|Plasma|Omeprazole|CentralMeasure"
+          },
+          "DataInfo": {
+            "Origin": "Observation",
+            "AuxiliaryType": "Undefined",
+            "Date": "2018-09-13T10:46:14.4895503+02:00",
+            "Source": "Data_extract_Omeprazole.Cho2002.4.CentralMeasure",
+            "MolWeight": 345.416
+          },
+          "Values": [
+            0.0206775237,
+            0.09342247,
+            0.782024562,
+            1.63092244,
+            2.1044662,
+            2.114964,
+            1.60431337,
+            1.19935894,
+            0.9110335,
+            0.578551948,
+            0.175979882
+          ],
+          "Dimension": "Concentration (mass)",
+          "Unit": "mg/l"
+        }
+      ],
+      "BaseGrid": {
+        "Name": "Time",
+        "QuantityInfo": {
+          "Name": "Time",
+          "Path": "Cho2002.Mean Ompz+Moc.20mg.po.PM|Time",
+          "Type": "Time"
+        },
+        "DataInfo": {
+          "Origin": "BaseGrid",
+          "AuxiliaryType": "Undefined",
+          "Date": "2018-09-13T10:46:14.4895503+02:00",
+          "Source": "Data_extract_Omeprazole.Cho2002.4.Time"
+        },
+        "Values": [
+          0.15835987,
+          0.490736216,
+          0.9117366,
+          1.46320724,
+          1.981752,
+          3.000203,
+          4.033739,
+          5.04392242,
+          6.03097057,
+          8.009927,
+          11.9730587
+        ],
+        "Dimension": "Time",
+        "Unit": "h"
+      }
+    },
+    {
+      "Name": "Yu2001.Asian.Moclobemide.300.po.sd.EM",
+      "ExtendedProperties": [
+        {
+          "Name": "Source",
+          "Value": "C:\\Exprimo\\Clients\\Boehringer\\1375a_BI_TK_BI409306_PBPK_DDI\\OriginalData\\Clinical_Data_Publications\\_DataExtraction\\Data_extract_Moclobemid.xlsx.Yu2001"
+        },
+        {
+          "Name": "File",
+          "Value": "Data_extract_Moclobemid"
+        },
+        {
+          "Name": "Sheet",
+          "Value": "Yu2001"
+        },
+        {
+          "Name": "Molecule",
+          "Value": "Moclobemide"
+        },
+        {
+          "Name": "Species",
+          "Value": "Human"
+        },
+        {
+          "Name": "Organ",
+          "Value": "Peripheral Venous Blood"
+        },
+        {
+          "Name": "Compartment",
+          "Value": "Plasma"
+        },
+        {
+          "Name": "Study Id",
+          "Value": "Yu2001"
+        },
+        {
+          "Name": "Gender",
+          "Value": "m"
+        },
+        {
+          "Name": "Dose",
+          "Value": "300"
+        },
+        {
+          "Name": "Route",
+          "Value": "po"
+        },
+        {
+          "Name": "Patient Id",
+          "Value": "EM"
+        }
+      ],
+      "Columns": [
+        {
+          "Name": "CentralMeasure",
+          "RelatedColumns": [
+            {
+              "Name": "SD",
+              "QuantityInfo": {
+                "Name": "SD",
+                "Path": "Yu2001.Asian.Moclobemide.300.po.sd.EM|ObservedData|Peripheral Venous Blood|Plasma|Moclobemide|SD"
+              },
+              "DataInfo": {
+                "Origin": "ObservationAuxiliary",
+                "AuxiliaryType": "ArithmeticStdDev",
+                "Date": "2018-09-05T14:02:29.0032891+02:00",
+                "Source": "Data_extract_Moclobemid.Yu2001.1.SD",
+                "MolWeight": 268.739
+              },
+              "Values": [
+                "NaN",
+                "NaN",
+                "NaN",
+                0.908,
+                0.71,
+                0.531,
+                0.445,
+                0.37,
+                0.357,
+                0.188,
+                0.04
+              ],
+              "Dimension": "Concentration (mass)",
+              "Unit": "µg/ml"
+            }
+          ],
+          "QuantityInfo": {
+            "Name": "CentralMeasure",
+            "Path": "Yu2001.Asian.Moclobemide.300.po.sd.EM|ObservedData|Peripheral Venous Blood|Plasma|Moclobemide|CentralMeasure"
+          },
+          "DataInfo": {
+            "Origin": "Observation",
+            "AuxiliaryType": "Undefined",
+            "Date": "2018-09-05T14:02:29.0032891+02:00",
+            "Source": "Data_extract_Moclobemid.Yu2001.1.CentralMeasure",
+            "MolWeight": 268.739
+          },
+          "Values": [
+            1.15037107,
+            2.61588,
+            2.261051,
+            2.26160932,
+            1.768526,
+            1.2060349,
+            0.876722455,
+            0.6731389,
+            0.459276229,
+            0.1655904,
+            0.02495085
+          ],
+          "Dimension": "Concentration (mass)",
+          "Unit": "mg/l"
+        }
+      ],
+      "BaseGrid": {
+        "Name": "Time",
+        "QuantityInfo": {
+          "Name": "Time",
+          "Path": "Yu2001.Asian.Moclobemide.300.po.sd.EM|Time",
+          "Type": "Time"
+        },
+        "DataInfo": {
+          "Origin": "BaseGrid",
+          "AuxiliaryType": "Undefined",
+          "Date": "2018-09-05T14:02:29.0032891+02:00",
+          "Source": "Data_extract_Moclobemid.Yu2001.1.Time"
+        },
+        "Values": [
+          0.425836235,
+          0.974812448,
+          1.48302257,
+          2.024426,
+          3.00941944,
+          3.993151,
+          5.041166,
+          5.898602,
+          7.996988,
+          12.1277094,
+          24.0210857
+        ],
+        "Dimension": "Time",
+        "Unit": "h"
+      }
+    },
+    {
+      "Name": "Yu2001.Asian.Moclobemide.300.po.sd.EM+OMP40sd",
+      "ExtendedProperties": [
+        {
+          "Name": "Source",
+          "Value": "C:\\Exprimo\\Clients\\Boehringer\\1375a_BI_TK_BI409306_PBPK_DDI\\OriginalData\\Clinical_Data_Publications\\_DataExtraction\\Data_extract_Moclobemid.xlsx.Yu2001"
+        },
+        {
+          "Name": "File",
+          "Value": "Data_extract_Moclobemid"
+        },
+        {
+          "Name": "Sheet",
+          "Value": "Yu2001"
+        },
+        {
+          "Name": "Molecule",
+          "Value": "Moclobemide"
+        },
+        {
+          "Name": "Species",
+          "Value": "Human"
+        },
+        {
+          "Name": "Organ",
+          "Value": "Peripheral Venous Blood"
+        },
+        {
+          "Name": "Compartment",
+          "Value": "Plasma"
+        },
+        {
+          "Name": "Study Id",
+          "Value": "Yu2001"
+        },
+        {
+          "Name": "Gender",
+          "Value": "m"
+        },
+        {
+          "Name": "Dose",
+          "Value": "300"
+        },
+        {
+          "Name": "Route",
+          "Value": "po"
+        },
+        {
+          "Name": "Patient Id",
+          "Value": "EM+OMP40sd"
+        }
+      ],
+      "Columns": [
+        {
+          "Name": "CentralMeasure",
+          "RelatedColumns": [
+            {
+              "Name": "SD",
+              "QuantityInfo": {
+                "Name": "SD",
+                "Path": "Yu2001.Asian.Moclobemide.300.po.sd.EM+OMP40sd|ObservedData|Peripheral Venous Blood|Plasma|Moclobemide|SD"
+              },
+              "DataInfo": {
+                "Origin": "ObservationAuxiliary",
+                "AuxiliaryType": "ArithmeticStdDev",
+                "Date": "2018-09-05T14:02:29.0032891+02:00",
+                "Source": "Data_extract_Moclobemid.Yu2001.2.SD",
+                "MolWeight": 268.739
+              },
+              "Values": [
+                1.692,
+                1.657,
+                1.767,
+                1.066,
+                1.077,
+                0.449,
+                0.444,
+                0.391,
+                0.382,
+                0.204,
+                0.048
+              ],
+              "Dimension": "Concentration (mass)",
+              "Unit": "µg/ml"
+            }
+          ],
+          "QuantityInfo": {
+            "Name": "CentralMeasure",
+            "Path": "Yu2001.Asian.Moclobemide.300.po.sd.EM+OMP40sd|ObservedData|Peripheral Venous Blood|Plasma|Moclobemide|CentralMeasure"
+          },
+          "DataInfo": {
+            "Origin": "Observation",
+            "AuxiliaryType": "Undefined",
+            "Date": "2018-09-05T14:02:29.0032891+02:00",
+            "Source": "Data_extract_Moclobemid.Yu2001.2.CentralMeasure",
+            "MolWeight": 268.739
+          },
+          "Values": [
+            1.30709684,
+            2.86535668,
+            2.84048414,
+            2.61709642,
+            2.24214053,
+            1.54298484,
+            1.1422925,
+            0.9435573,
+            0.6616283,
+            0.247401372,
+            0.0447378419
+          ],
+          "Dimension": "Concentration (mass)",
+          "Unit": "mg/l"
+        }
+      ],
+      "BaseGrid": {
+        "Name": "Time",
+        "QuantityInfo": {
+          "Name": "Time",
+          "Path": "Yu2001.Asian.Moclobemide.300.po.sd.EM+OMP40sd|Time",
+          "Type": "Time"
+        },
+        "DataInfo": {
+          "Origin": "BaseGrid",
+          "AuxiliaryType": "Undefined",
+          "Date": "2018-09-05T14:02:29.0032891+02:00",
+          "Source": "Data_extract_Moclobemid.Yu2001.2.Time"
+        },
+        "Values": [
+          0.3633197,
+          0.6253339,
+          1.51697326,
+          1.99392509,
+          3.075302,
+          3.9954226,
+          4.97991133,
+          6.06095171,
+          8.095896,
+          12.0995636,
+          23.80354
+        ],
+        "Dimension": "Time",
+        "Unit": "h"
+      }
+    }
+  ]
+}
