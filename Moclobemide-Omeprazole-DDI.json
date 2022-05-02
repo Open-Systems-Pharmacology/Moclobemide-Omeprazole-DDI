@@ -1,5 +1,5 @@
 {
-  "Version": 77,
+  "Version": 78,
   "Individuals": [
     {
       "Name": "Japanese CYP2C19 DDI",
@@ -17,320 +17,292 @@
           "Unit": "year(s)"
         }
       },
+      "Parameters": [
+        {
+          "Path": "CYP1A2|Reference concentration",
+          "Value": 1.8,
+          "Unit": "µmol/l"
+        },
+        {
+          "Path": "CYP1A2|t1/2 (intestine)",
+          "Value": 23.0,
+          "Unit": "h"
+        },
+        {
+          "Path": "CYP1A2|t1/2 (liver)",
+          "Value": 39.0,
+          "Unit": "h"
+        },
+        {
+          "Path": "CYP2C19|Reference concentration",
+          "Value": 0.76,
+          "Unit": "µmol/l"
+        },
+        {
+          "Path": "CYP2C19|t1/2 (intestine)",
+          "Value": 23.0,
+          "Unit": "h"
+        },
+        {
+          "Path": "CYP2C19|t1/2 (liver)",
+          "Value": 26.0,
+          "Unit": "h"
+        },
+        {
+          "Path": "CYP2D6|Reference concentration",
+          "Value": 0.4,
+          "Unit": "µmol/l"
+        },
+        {
+          "Path": "CYP2D6|t1/2 (intestine)",
+          "Value": 23.0,
+          "Unit": "h"
+        },
+        {
+          "Path": "CYP2D6|t1/2 (liver)",
+          "Value": 51.0,
+          "Unit": "h"
+        },
+        {
+          "Path": "CYP3A4|Reference concentration",
+          "Value": 4.32,
+          "Unit": "µmol/l"
+        },
+        {
+          "Path": "CYP3A4|t1/2 (intestine)",
+          "Value": 23.0,
+          "Unit": "h"
+        },
+        {
+          "Path": "CYP3A4|t1/2 (liver)",
+          "Value": 37.0,
+          "Unit": "h"
+        },
+        {
+          "Path": "FMO_other|Reference concentration",
+          "Value": 1.0,
+          "Unit": "µmol/l"
+        },
+        {
+          "Path": "FMO_other|t1/2 (intestine)",
+          "Value": 23.0,
+          "Unit": "h"
+        },
+        {
+          "Path": "FMO_other|t1/2 (liver)",
+          "Value": 36.0,
+          "Unit": "h"
+        },
+        {
+          "Path": "Organism|Brain|Intracellular|CYP2C19|Relative expression",
+          "Value": 0.00014961101137
+        },
+        {
+          "Path": "Organism|Brain|Intracellular|CYP2D6|Relative expression",
+          "Value": 0.00768702814
+        },
+        {
+          "Path": "Organism|Brain|Intracellular|CYP3A4|Relative expression",
+          "Value": 0.0041682898325
+        },
+        {
+          "Path": "Organism|Gonads|Intracellular|CYP1A2|Relative expression",
+          "Value": 0.00029559748428
+        },
+        {
+          "Path": "Organism|Gonads|Intracellular|CYP2C19|Relative expression",
+          "Value": 0.0003526545268
+        },
+        {
+          "Path": "Organism|Gonads|Intracellular|CYP2D6|Relative expression",
+          "Value": 0.768702814
+        },
+        {
+          "Path": "Organism|Gonads|Intracellular|CYP3A4|Relative expression",
+          "Value": 0.00078691079081
+        },
+        {
+          "Path": "Organism|Kidney|Intracellular|CYP1A2|Relative expression",
+          "Value": 4.4025157233E-06
+        },
+        {
+          "Path": "Organism|Kidney|Intracellular|CYP2C19|Relative expression",
+          "Value": 0.00015816021202
+        },
+        {
+          "Path": "Organism|Kidney|Intracellular|CYP2D6|Relative expression",
+          "Value": 0.0208304736
+        },
+        {
+          "Path": "Organism|Kidney|Intracellular|CYP3A4|Relative expression",
+          "Value": 0.0053603428126
+        },
+        {
+          "Path": "Organism|Liver|Pericentral|Intracellular|CYP1A2|Relative expression",
+          "Value": 1.0
+        },
+        {
+          "Path": "Organism|Liver|Pericentral|Intracellular|CYP2C19|Relative expression",
+          "Value": 1.0
+        },
+        {
+          "Path": "Organism|Liver|Pericentral|Intracellular|CYP2D6|Relative expression",
+          "Value": 1.0
+        },
+        {
+          "Path": "Organism|Liver|Pericentral|Intracellular|CYP3A4|Relative expression",
+          "Value": 1.0
+        },
+        {
+          "Path": "Organism|Liver|Pericentral|Intracellular|FMO_other|Relative expression",
+          "Value": 1.0
+        },
+        {
+          "Path": "Organism|Liver|Periportal|Intracellular|CYP1A2|Relative expression",
+          "Value": 1.0
+        },
+        {
+          "Path": "Organism|Liver|Periportal|Intracellular|CYP2C19|Relative expression",
+          "Value": 1.0
+        },
+        {
+          "Path": "Organism|Liver|Periportal|Intracellular|CYP2D6|Relative expression",
+          "Value": 1.0
+        },
+        {
+          "Path": "Organism|Liver|Periportal|Intracellular|CYP3A4|Relative expression",
+          "Value": 1.0
+        },
+        {
+          "Path": "Organism|Liver|Periportal|Intracellular|FMO_other|Relative expression",
+          "Value": 1.0
+        },
+        {
+          "Path": "Organism|Lung|Intracellular|CYP1A2|Relative expression",
+          "Value": 2.4947589099E-05
+        },
+        {
+          "Path": "Organism|Lung|Intracellular|CYP2C19|Relative expression",
+          "Value": 0.00040608703086
+        },
+        {
+          "Path": "Organism|Lung|Intracellular|CYP2D6|Relative expression",
+          "Value": 0.0223404255
+        },
+        {
+          "Path": "Organism|Lung|Intracellular|CYP3A4|Relative expression",
+          "Value": 0.00042695753798
+        },
+        {
+          "Path": "Organism|SmallIntestine|Intracellular|CYP2C19|Relative expression",
+          "Value": 0.014529148
+        },
+        {
+          "Path": "Organism|SmallIntestine|Intracellular|CYP2D6|Relative expression",
+          "Value": 0.0909402883
+        },
+        {
+          "Path": "Organism|SmallIntestine|Intracellular|CYP3A4|Relative expression",
+          "Value": 0.0727697702
+        },
+        {
+          "Path": "Organism|SmallIntestine|Mucosa|Duodenum|Intracellular|CYP2C19|Relative expression",
+          "Value": 0.016875
+        },
+        {
+          "Path": "Organism|SmallIntestine|Mucosa|Duodenum|Intracellular|CYP2D6|Relative expression",
+          "Value": 0.0909402883
+        },
+        {
+          "Path": "Organism|SmallIntestine|Mucosa|Duodenum|Intracellular|CYP3A4|Relative expression",
+          "Value": 0.0727697702
+        },
+        {
+          "Path": "Organism|SmallIntestine|Mucosa|LowerIleum|Intracellular|CYP2C19|Relative expression",
+          "Value": 0.0139655172
+        },
+        {
+          "Path": "Organism|SmallIntestine|Mucosa|LowerIleum|Intracellular|CYP2D6|Relative expression",
+          "Value": 0.0909402883
+        },
+        {
+          "Path": "Organism|SmallIntestine|Mucosa|LowerIleum|Intracellular|CYP3A4|Relative expression",
+          "Value": 0.0727697702
+        },
+        {
+          "Path": "Organism|SmallIntestine|Mucosa|LowerJejunum|Intracellular|CYP2C19|Relative expression",
+          "Value": 0.0132244898
+        },
+        {
+          "Path": "Organism|SmallIntestine|Mucosa|LowerJejunum|Intracellular|CYP2D6|Relative expression",
+          "Value": 0.0909402883
+        },
+        {
+          "Path": "Organism|SmallIntestine|Mucosa|LowerJejunum|Intracellular|CYP3A4|Relative expression",
+          "Value": 0.0727697702
+        },
+        {
+          "Path": "Organism|SmallIntestine|Mucosa|UpperIleum|Intracellular|CYP2C19|Relative expression",
+          "Value": 0.0139655172
+        },
+        {
+          "Path": "Organism|SmallIntestine|Mucosa|UpperIleum|Intracellular|CYP2D6|Relative expression",
+          "Value": 0.0909402883
+        },
+        {
+          "Path": "Organism|SmallIntestine|Mucosa|UpperIleum|Intracellular|CYP3A4|Relative expression",
+          "Value": 0.0727697702
+        },
+        {
+          "Path": "Organism|SmallIntestine|Mucosa|UpperJejunum|Intracellular|CYP2C19|Relative expression",
+          "Value": 0.0132244898
+        },
+        {
+          "Path": "Organism|SmallIntestine|Mucosa|UpperJejunum|Intracellular|CYP2D6|Relative expression",
+          "Value": 0.0909402883
+        },
+        {
+          "Path": "Organism|SmallIntestine|Mucosa|UpperJejunum|Intracellular|CYP3A4|Relative expression",
+          "Value": 0.0727697702
+        }
+      ],
       "Molecules": [
         {
           "Name": "CYP3A4",
           "Type": "Enzyme",
-          "MembraneLocation": "Apical",
-          "TissueLocation": "Intracellular",
-          "IntracellularVascularEndoLocation": "Endosomal",
-          "Expression": [
-            {
-              "Name": "Brain",
-              "Value": 0.0041682898325
-            },
-            {
-              "Name": "Gonads",
-              "Value": 0.00078691079081
-            },
-            {
-              "Name": "Kidney",
-              "Value": 0.0053603428126
-            },
-            {
-              "Name": "Periportal",
-              "Value": 1.0
-            },
-            {
-              "Name": "Pericentral",
-              "Value": 1.0
-            },
-            {
-              "Name": "Lung",
-              "Value": 0.00042695753798
-            },
-            {
-              "Name": "SmallIntestine",
-              "Value": 0.0727697702
-            },
-            {
-              "Name": "Duodenum",
-              "Value": 0.0727697702
-            },
-            {
-              "Name": "UpperJejunum",
-              "Value": 0.0727697702
-            },
-            {
-              "Name": "LowerJejunum",
-              "Value": 0.0727697702
-            },
-            {
-              "Name": "UpperIleum",
-              "Value": 0.0727697702
-            },
-            {
-              "Name": "LowerIleum",
-              "Value": 0.0727697702
-            }
-          ],
+          "Localization": "Intracellular, BloodCellsIntracellular, VascEndosome",
           "Ontogeny": {
             "Name": "CYP3A4"
-          },
-          "Parameters": [
-            {
-              "Name": "Reference concentration",
-              "Value": 4.32,
-              "Unit": "µmol/l"
-            },
-            {
-              "Name": "t1/2 (liver)",
-              "Value": 37.0,
-              "Unit": "h"
-            },
-            {
-              "Name": "t1/2 (intestine)",
-              "Value": 23.0,
-              "Unit": "h"
-            }
-          ]
+          }
         },
         {
           "Name": "CYP2C19",
           "Type": "Enzyme",
-          "MembraneLocation": "Apical",
-          "TissueLocation": "Intracellular",
-          "IntracellularVascularEndoLocation": "Endosomal",
-          "Expression": [
-            {
-              "Name": "Brain",
-              "Value": 0.00014961101137
-            },
-            {
-              "Name": "Gonads",
-              "Value": 0.0003526545268
-            },
-            {
-              "Name": "Kidney",
-              "Value": 0.00015816021202
-            },
-            {
-              "Name": "Periportal",
-              "Value": 1.0
-            },
-            {
-              "Name": "Pericentral",
-              "Value": 1.0
-            },
-            {
-              "Name": "Lung",
-              "Value": 0.00040608703086
-            },
-            {
-              "Name": "SmallIntestine",
-              "Value": 0.014529148
-            },
-            {
-              "Name": "Duodenum",
-              "Value": 0.016875
-            },
-            {
-              "Name": "UpperJejunum",
-              "Value": 0.0132244898
-            },
-            {
-              "Name": "LowerJejunum",
-              "Value": 0.0132244898
-            },
-            {
-              "Name": "UpperIleum",
-              "Value": 0.0139655172
-            },
-            {
-              "Name": "LowerIleum",
-              "Value": 0.0139655172
-            }
-          ],
+          "Localization": "Intracellular, BloodCellsIntracellular, VascEndosome",
           "Ontogeny": {
             "Name": "CYP2C19"
-          },
-          "Parameters": [
-            {
-              "Name": "Reference concentration",
-              "Value": 0.76,
-              "Unit": "µmol/l"
-            },
-            {
-              "Name": "t1/2 (liver)",
-              "Value": 26.0,
-              "Unit": "h"
-            },
-            {
-              "Name": "t1/2 (intestine)",
-              "Value": 23.0,
-              "Unit": "h"
-            }
-          ]
+          }
         },
         {
           "Name": "CYP2D6",
           "Type": "Enzyme",
-          "MembraneLocation": "Apical",
-          "TissueLocation": "Intracellular",
-          "IntracellularVascularEndoLocation": "Endosomal",
-          "Expression": [
-            {
-              "Name": "Brain",
-              "Value": 0.00768702814
-            },
-            {
-              "Name": "Gonads",
-              "Value": 0.768702814
-            },
-            {
-              "Name": "Kidney",
-              "Value": 0.0208304736
-            },
-            {
-              "Name": "Periportal",
-              "Value": 1.0
-            },
-            {
-              "Name": "Pericentral",
-              "Value": 1.0
-            },
-            {
-              "Name": "Lung",
-              "Value": 0.0223404255
-            },
-            {
-              "Name": "SmallIntestine",
-              "Value": 0.0909402883
-            },
-            {
-              "Name": "Duodenum",
-              "Value": 0.0909402883
-            },
-            {
-              "Name": "UpperJejunum",
-              "Value": 0.0909402883
-            },
-            {
-              "Name": "LowerJejunum",
-              "Value": 0.0909402883
-            },
-            {
-              "Name": "UpperIleum",
-              "Value": 0.0909402883
-            },
-            {
-              "Name": "LowerIleum",
-              "Value": 0.0909402883
-            }
-          ],
+          "Localization": "Intracellular, BloodCellsIntracellular, VascEndosome",
           "Ontogeny": {
             "Name": "CYP2D6"
-          },
-          "Parameters": [
-            {
-              "Name": "Reference concentration",
-              "Value": 0.4,
-              "Unit": "µmol/l"
-            },
-            {
-              "Name": "t1/2 (liver)",
-              "Value": 51.0,
-              "Unit": "h"
-            },
-            {
-              "Name": "t1/2 (intestine)",
-              "Value": 23.0,
-              "Unit": "h"
-            }
-          ]
+          }
         },
         {
           "Name": "CYP1A2",
           "Type": "Enzyme",
-          "MembraneLocation": "Apical",
-          "TissueLocation": "Intracellular",
-          "IntracellularVascularEndoLocation": "Endosomal",
-          "Expression": [
-            {
-              "Name": "Gonads",
-              "Value": 0.00029559748428
-            },
-            {
-              "Name": "Kidney",
-              "Value": 4.4025157233E-06
-            },
-            {
-              "Name": "Periportal",
-              "Value": 1.0
-            },
-            {
-              "Name": "Pericentral",
-              "Value": 1.0
-            },
-            {
-              "Name": "Lung",
-              "Value": 2.4947589099E-05
-            }
-          ],
+          "Localization": "Intracellular, BloodCellsIntracellular, VascEndosome",
           "Ontogeny": {
             "Name": "CYP1A2"
-          },
-          "Parameters": [
-            {
-              "Name": "Reference concentration",
-              "Value": 1.8,
-              "Unit": "µmol/l"
-            },
-            {
-              "Name": "t1/2 (liver)",
-              "Value": 39.0,
-              "Unit": "h"
-            },
-            {
-              "Name": "t1/2 (intestine)",
-              "Value": 23.0,
-              "Unit": "h"
-            }
-          ]
+          }
         },
         {
           "Name": "FMO_other",
           "Type": "Enzyme",
-          "MembraneLocation": "Apical",
-          "TissueLocation": "Intracellular",
-          "IntracellularVascularEndoLocation": "Endosomal",
-          "Expression": [
-            {
-              "Name": "Periportal",
-              "Value": 1.0
-            },
-            {
-              "Name": "Pericentral",
-              "Value": 1.0
-            }
-          ],
-          "Parameters": [
-            {
-              "Name": "Reference concentration",
-              "Value": 1.0,
-              "Unit": "µmol/l"
-            },
-            {
-              "Name": "t1/2 (liver)",
-              "Value": 36.0,
-              "Unit": "h"
-            },
-            {
-              "Name": "t1/2 (intestine)",
-              "Value": 23.0,
-              "Unit": "h"
-            }
-          ]
+          "Localization": "Intracellular, BloodCellsIntracellular, VascEndosome"
         }
       ]
     }
@@ -1164,7 +1136,8 @@
           "Name": "Cl",
           "Value": 1.0,
           "ValueOrigin": {
-            "Source": "Unknown"
+            "Source": "Database",
+            "Description": "DrugBank DB01171"
           }
         },
         {
@@ -2818,10 +2791,6 @@
       "Name": "Cho2002.Mean Ompz.20mg.po.EM",
       "ExtendedProperties": [
         {
-          "Name": "Source",
-          "Value": "C:\\Exprimo\\Clients\\Boehringer\\1375a_BI_TK_BI409306_PBPK_DDI\\OriginalData\\Clinical_Data_Publications\\_DataExtraction\\Data_extract_Omeprazole.xlsx.Cho2002"
-        },
-        {
           "Name": "File",
           "Value": "Data_extract_Omeprazole"
         },
@@ -2851,7 +2820,7 @@
         },
         {
           "Name": "Dose",
-          "Value": "20"
+          "Value": 20.0
         },
         {
           "Name": "Route",
@@ -2925,10 +2894,6 @@
       "Name": "Cho2002.Mean Ompz.20mg.po.PM",
       "ExtendedProperties": [
         {
-          "Name": "Source",
-          "Value": "C:\\Exprimo\\Clients\\Boehringer\\1375a_BI_TK_BI409306_PBPK_DDI\\OriginalData\\Clinical_Data_Publications\\_DataExtraction\\Data_extract_Omeprazole.xlsx.Cho2002"
-        },
-        {
           "Name": "File",
           "Value": "Data_extract_Omeprazole"
         },
@@ -2958,7 +2923,7 @@
         },
         {
           "Name": "Dose",
-          "Value": "20"
+          "Value": 20.0
         },
         {
           "Name": "Route",
@@ -3032,10 +2997,6 @@
       "Name": "Cho2002.Mean Ompz+Moc.20mg.po.EM",
       "ExtendedProperties": [
         {
-          "Name": "Source",
-          "Value": "C:\\Exprimo\\Clients\\Boehringer\\1375a_BI_TK_BI409306_PBPK_DDI\\OriginalData\\Clinical_Data_Publications\\_DataExtraction\\Data_extract_Omeprazole.xlsx.Cho2002"
-        },
-        {
           "Name": "File",
           "Value": "Data_extract_Omeprazole"
         },
@@ -3065,7 +3026,7 @@
         },
         {
           "Name": "Dose",
-          "Value": "20"
+          "Value": 20.0
         },
         {
           "Name": "Route",
@@ -3141,10 +3102,6 @@
       "Name": "Cho2002.Mean Ompz+Moc.20mg.po.PM",
       "ExtendedProperties": [
         {
-          "Name": "Source",
-          "Value": "C:\\Exprimo\\Clients\\Boehringer\\1375a_BI_TK_BI409306_PBPK_DDI\\OriginalData\\Clinical_Data_Publications\\_DataExtraction\\Data_extract_Omeprazole.xlsx.Cho2002"
-        },
-        {
           "Name": "File",
           "Value": "Data_extract_Omeprazole"
         },
@@ -3174,7 +3131,7 @@
         },
         {
           "Name": "Dose",
-          "Value": "20"
+          "Value": 20.0
         },
         {
           "Name": "Route",
@@ -3250,10 +3207,6 @@
       "Name": "Yu2001.Asian.Moclobemide.300.po.sd.EM",
       "ExtendedProperties": [
         {
-          "Name": "Source",
-          "Value": "C:\\Exprimo\\Clients\\Boehringer\\1375a_BI_TK_BI409306_PBPK_DDI\\OriginalData\\Clinical_Data_Publications\\_DataExtraction\\Data_extract_Moclobemid.xlsx.Yu2001"
-        },
-        {
           "Name": "File",
           "Value": "Data_extract_Moclobemid"
         },
@@ -3287,7 +3240,7 @@
         },
         {
           "Name": "Dose",
-          "Value": "300"
+          "Value": 300.0
         },
         {
           "Name": "Route",
@@ -3329,7 +3282,7 @@
                 0.04
               ],
               "Dimension": "Concentration (mass)",
-              "Unit": "µg/ml"
+              "Unit": "mg/l"
             }
           ],
           "QuantityInfo": {
@@ -3394,10 +3347,6 @@
       "Name": "Yu2001.Asian.Moclobemide.300.po.sd.EM+OMP40sd",
       "ExtendedProperties": [
         {
-          "Name": "Source",
-          "Value": "C:\\Exprimo\\Clients\\Boehringer\\1375a_BI_TK_BI409306_PBPK_DDI\\OriginalData\\Clinical_Data_Publications\\_DataExtraction\\Data_extract_Moclobemid.xlsx.Yu2001"
-        },
-        {
           "Name": "File",
           "Value": "Data_extract_Moclobemid"
         },
@@ -3431,7 +3380,7 @@
         },
         {
           "Name": "Dose",
-          "Value": "300"
+          "Value": 300.0
         },
         {
           "Name": "Route",
@@ -3473,7 +3422,7 @@
                 0.048
               ],
               "Dimension": "Concentration (mass)",
-              "Unit": "µg/ml"
+              "Unit": "mg/l"
             }
           ],
           "QuantityInfo": {
